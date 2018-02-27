@@ -1,0 +1,73 @@
+// Theme variables
+
+@import "_variables.scss"; 
+
+
+// User's custom variables
+
+@import "_custom-variables.scss"; 
+ 
+
+// Bootstrap variables and functions 
+
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";  
+
+
+// Overriden mixins
+
+@import "mixins/_alert.scss";
+@import "mixins/_background-variant.scss";
+@import "mixins/_forms.scss";
+@import "mixins/_modals.scss";
+@import "mixins/_popover.scss"; 
+
+
+// Bootstrap components
+
+@import "bootstrap/root";
+@import "bootstrap/reboot";
+@import "bootstrap/type";
+@import "bootstrap/images";
+@import "bootstrap/code"; 
+@import "bootstrap/grid";
+@import "bootstrap/tables"; 
+@import "bootstrap/forms";
+@import "bootstrap/buttons";
+@import "bootstrap/transitions";
+@import "bootstrap/dropdown";
+@import "bootstrap/button-group";
+@import "bootstrap/input-group";
+@import "bootstrap/custom-forms";
+@import "bootstrap/nav";
+@import "bootstrap/navbar";
+@import "bootstrap/card";
+@import "bootstrap/breadcrumb";
+@import "bootstrap/pagination";
+@import "bootstrap/badge";
+@import "bootstrap/jumbotron";
+@import "bootstrap/alert";
+@import "bootstrap/progress";
+@import "bootstrap/media";
+@import "bootstrap/list-group";
+@import "bootstrap/close";
+@import "bootstrap/modal";
+@import "bootstrap/tooltip";
+@import "bootstrap/popover";
+@import "bootstrap/carousel";
+@import "bootstrap/utilities";
+@import "bootstrap/print";
+
+
+// Theme styles
+
+@import "_reboot.scss"; 
+@import "_global.scss";
+@import "_utilities.scss";
+@import "_components.scss";
+
+
+// User's custom styles
+
+@import "_custom.scss";
