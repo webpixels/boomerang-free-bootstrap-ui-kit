@@ -1,8 +1,177 @@
-<!DOCTYPE html> <html> <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta name="description" content="Probably the most complete UI kit out there. Multiple functionalities and controls added, extended color palette and beautiful typography, designed as its own extended version of Bootstrap at the highest level of quality. "> <meta name="author" content="Webpixels"> <title>Boomerang UI Kit - Free Bootstrap Framework by Webpixels</title> <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800|Roboto:400,500,700" rel="stylesheet"> <link rel="stylesheet" href="../assets/vendor/animate/animate.min.css" type="text/css"> <link type="text/css" href="../assets/css/theme.css" rel="stylesheet"> <link rel="stylesheet" href="../assets/vendor/jquery-scrollbar/css/jquery-scrollbar.css"> <link type="text/css" href="../assets/vendor/highlight/css/highlight.min.css" rel="stylesheet"> <link type="text/css" href="../assets/css/demo.css" rel="stylesheet"> </head> <body> <main class="main"> <aside class="sidebar" id="nav_docs"> <div class="sidebar-brand"> <h1 class="font-weight-400"><a href="../"><span class="font-weight-700">Boomerang</span> UI Kit</a></h1> </div> <div class="scrollbar-inner"> <ul class="navigation pr-3"> <li class="navigation-title">Getting started</li> <li class="navigation-item"> <a href="introduction.html" class="navigation-link">Introduction</a> </li> <li class="navigation-item"> <a href="file-structure.html" class="navigation-link">File structure</a> </li> <li class="navigation-item"> <a href="plugins.html" class="navigation-link">Plugins</a> </li> <li class="navigation-item"> <a href="customization.html" class="navigation-link">Customization</a> </li> <li class="navigation-item"> <a href="update.html" class="navigation-link">Update</a> </li> <li class="navigation-title">Design elements</li> <li class="navigation-item"> <a href="colors.html" class="navigation-link">Colors</a> </li> <li class="navigation-item"> <a href="typography.html" class="navigation-link">Typography</a> </li> <li class="navigation-item"> <a href="icons.html" class="navigation-link">Icons</a> </li> <li class="navigation-title">Components</li> <li class="navigation-item"> <a href="alerts.html" class="navigation-link">Alerts</a> </li> <li class="navigation-item"> <a href="avatars.html" class="navigation-link">Avatars</a> </li> <li class="navigation-item"> <a href="badges.html" class="navigation-link">Badges</a> </li> <li class="navigation-item"> <a href="buttons.html" class="navigation-link">Buttons</a> </li> <li class="navigation-item"> <a href="cards.html" class="navigation-link">Cards</a> </li> <li class="navigation-item"> <a href="dropdowns.html" class="navigation-link">Dropdowns</a> </li> <li class="navigation-item"> <a href="forms.html" class="navigation-link">Forms</a> </li> <li class="navigation-item"> <a href="modal.html" class="navigation-link">Modal</a> </li> <li class="navigation-item"> <a href="navbar.html" class="navigation-link">Navbar</a> </li> <li class="navigation-item"> <a href="navs.html" class="navigation-link">Navs</a> </li> <li class="navigation-item"> <a href="pagination.html" class="navigation-link">Pagination</a> </li> <li class="navigation-item"> <a href="progress.html" class="navigation-link">Progress</a> </li> <li class="navigation-item"> <a href="tables.html" class="navigation-link">Tables</a> </li> <li class="navigation-item"> <a href="tooltips.html" class="navigation-link">Tooltips</a> </li> </ul> </div> </aside> <section class="content"> <div class="header"> <div class="navigation-trigger d-xl-none" data-action="aside-open" data-target=".sidebar"> <div class="navigation-trigger-inner"> <i class="navigation-trigger-line"></i> <i class="navigation-trigger-line"></i> <i class="navigation-trigger-line"></i> </div> </div> <div class="header-brand d-xl-none"> <h1><a href="index.html">Boomerang UI Kit</a></h1> </div> <div class="header-nav ml-auto"> <ul class="nav align-items-center"> <li class="nav-item d-none d-md-inline-block"> <a class="nav-link pl-0 active" href="../">Go to UI Kit</a> </li> <li class="nav-item d-none d-md-inline-block"> <a class="nav-link" href="../docs/changelog.html">Changelog</a> </li> <li class="nav-item ml-4"> <a href="https://github.com/webpixels/boomerang-ui-kit/archive/master.zip" class="btn btn-sm btn-primary">Download Free</a> </li> </ul> </div> </div> <div class="content-inner content-docs"> <div class="container"> <div class="pt-3 pb-4 mb-4 border-bottom"> <div class="row"> <div class="col-lg-6"> <h2 class="heading h2 font-weight-bold">Form elements</h2> <p>Examples and usage guidelines for form control styles, layout options, and custom components for creating a wide variety of forms.</p> <a href="http://getbootstrap.com/docs/4.0/components/forms" target="_blank">Open Bootstrap Docs</a> </div> </div> </div> <div class="row"> <div class="col-lg-9"> <h3 id="example">Example</h3> <div class="code-example"> <div class="form-group"> <input type="text" class="form-control" placeholder="Default"/> </div> </div> <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Probably the most complete UI kit out there. Multiple functionalities and controls added,  extended color palette and beautiful typography, designed as its own extended version of Bootstrap at  the highest level of quality.                             ">
+    <meta name="author" content="Webpixels">
+    <title>Boomerang UI Kit - Free Bootstrap Framework by Webpixels</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800|Roboto:400,500,700" rel="stylesheet">
+    <!-- Plugins -->
+    <link rel="stylesheet" href="../assets/vendor/animate/animate.min.css" type="text/css">
+    <!-- Theme CSS -->
+    <link type="text/css" href="../assets/css/theme.css" rel="stylesheet">
+    <!-- Demo CSS - No need to use these in your project -->
+    <link rel="stylesheet" href="../assets/vendor/jquery-scrollbar/css/jquery-scrollbar.css">
+    <link type="text/css" href="../assets/vendor/highlight/css/highlight.min.css" rel="stylesheet">
+    <link type="text/css" href="../assets/css/demo.css" rel="stylesheet">
+  </head>
+  <body>
+    <main class="main">
+      <aside class="sidebar" id="nav_docs">
+        <div class="sidebar-brand">
+          <h1 class="font-weight-400"><a href="../"><span class="font-weight-700">Boomerang</span> UI Kit</a></h1>
+        </div>
+        <div class="scrollbar-inner">
+          <ul class="navigation pr-3">
+            <li class="navigation-title">Getting started</li>
+            <li class="navigation-item">
+              <a href="introduction.html" class="navigation-link">Introduction</a>
+            </li>
+            <li class="navigation-item">
+              <a href="file-structure.html" class="navigation-link">File structure</a>
+            </li>
+            <li class="navigation-item">
+              <a href="plugins.html" class="navigation-link">Plugins</a>
+            </li>
+            <li class="navigation-item">
+              <a href="customization.html" class="navigation-link">Customization</a>
+            </li>
+            <li class="navigation-item">
+              <a href="update.html" class="navigation-link">Update</a>
+            </li>
+            <li class="navigation-title">Design elements</li>
+            <li class="navigation-item">
+              <a href="colors.html" class="navigation-link">Colors</a>
+            </li>
+            <li class="navigation-item">
+              <a href="typography.html" class="navigation-link">Typography</a>
+            </li>
+            <li class="navigation-item">
+              <a href="icons.html" class="navigation-link">Icons</a>
+            </li>
+            <li class="navigation-title">Components</li>
+            <li class="navigation-item">
+              <a href="alerts.html" class="navigation-link">Alerts</a>
+            </li>
+            <li class="navigation-item">
+              <a href="avatars.html" class="navigation-link">Avatars</a>
+            </li>
+            <li class="navigation-item">
+              <a href="badges.html" class="navigation-link">Badges</a>
+            </li>
+            <li class="navigation-item">
+              <a href="buttons.html" class="navigation-link">Buttons</a>
+            </li>
+            <li class="navigation-item">
+              <a href="cards.html" class="navigation-link">Cards</a>
+            </li>
+            <li class="navigation-item">
+              <a href="dropdowns.html" class="navigation-link">Dropdowns</a>
+            </li>
+            <li class="navigation-item">
+              <a href="forms.html" class="navigation-link">Forms</a>
+            </li>
+            <li class="navigation-item">
+              <a href="modal.html" class="navigation-link">Modal</a>
+            </li>
+            <li class="navigation-item">
+              <a href="navbar.html" class="navigation-link">Navbar</a>
+            </li>
+            <li class="navigation-item">
+              <a href="navs.html" class="navigation-link">Navs</a>
+            </li>
+            <li class="navigation-item">
+              <a href="pagination.html" class="navigation-link">Pagination</a>
+            </li>
+            <li class="navigation-item">
+              <a href="progress.html" class="navigation-link">Progress</a>
+            </li>
+            <li class="navigation-item">
+              <a href="tables.html" class="navigation-link">Tables</a>
+            </li>
+            <li class="navigation-item">
+              <a href="tooltips.html" class="navigation-link">Tooltips</a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <section class="content">
+        <div class="header">
+          <div class="navigation-trigger d-xl-none" data-action="aside-open" data-target=".sidebar">
+            <div class="navigation-trigger-inner">
+              <i class="navigation-trigger-line"></i>
+              <i class="navigation-trigger-line"></i>
+              <i class="navigation-trigger-line"></i>
+            </div>
+          </div>
+          <div class="header-brand d-xl-none">
+            <h1><a href="index.html">Boomerang UI Kit</a></h1>
+          </div>
+          <div class="header-nav ml-auto">
+            <ul class="nav align-items-center">
+              <li class="nav-item d-none d-md-inline-block">
+                <a class="nav-link pl-0 active" href="../">Go to UI Kit</a>
+              </li>
+              <li class="nav-item d-none d-md-inline-block">
+                <a class="nav-link" href="../docs/changelog.html">Changelog</a>
+              </li>
+              <li class="nav-item ml-4">
+                <a href="https://github.com/webpixels/boomerang-ui-kit/archive/master.zip" class="btn btn-sm btn-primary">Download Free</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="content-inner content-docs">
+          <div class="container">
+            <div class="pt-3 pb-4 mb-4 border-bottom">
+              <div class="row">
+                <div class="col-lg-6">
+                  <h2 class="heading h2 font-weight-bold">Form elements</h2>
+                  <p>Examples and usage guidelines for form control styles, layout options, and custom components for creating a wide variety of forms.</p>
+                  <a href="http://getbootstrap.com/docs/4.0/components/forms" target="_blank">Open Bootstrap Docs</a>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-9">
+                <h3 id="example">Example</h3>
+                <div class="code-example">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Default" />
+                  </div>
+                </div>
+                <div class="highlight">
+                  <pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">class=</span><span class="s">"form-control"</span> <span class="na">placeholder=</span><span class="s">"Default"</span><span class="nt">&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre></div> <h3 id="borderless">Borderless</h3> <div class="code-example"> <div class="form-group"> <input type="text" class="form-control border-0" placeholder="No borders"/> </div> </div> <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre>
+                </div>
+                <h3 id="borderless">Borderless</h3>
+                <div class="code-example">
+                  <div class="form-group">
+                    <input type="text" class="form-control border-0" placeholder="No borders" />
+                  </div>
+                </div>
+                <div class="highlight">
+                  <pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">class=</span><span class="s">"form-control border-0"</span> <span class="na">placeholder=</span><span class="s">"No borders"</span><span class="nt">&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre></div> <h3 id="input-states">Input states</h3> <div class="code-example"> <div class="form-group"> <input type="text" class="form-control is-valid" placeholder="Is valid"/> </div> <div class="form-group"> <input type="text" class="form-control is-invalid" placeholder="Is invalid"/> </div> <div class="form-group"> <input type="text" class="form-control" placeholder="Disabled" disabled=""/> </div> </div> <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre>
+                </div>
+                <h3 id="input-states">Input states</h3>
+                <div class="code-example">
+                  <div class="form-group">
+                    <input type="text" class="form-control is-valid" placeholder="Is valid" />
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control is-invalid" placeholder="Is invalid" />
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Disabled" disabled="" />
+                  </div>
+                </div>
+                <div class="highlight">
+                  <pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">class=</span><span class="s">"form-control is-valid"</span> <span class="na">placeholder=</span><span class="s">"Is valid"</span><span class="nt">&gt;</span>
 <span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
@@ -10,7 +179,25 @@
 <span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">class=</span><span class="s">"form-control"</span> <span class="na">placeholder=</span><span class="s">"Disabled"</span> <span class="na">disabled</span><span class="nt">&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre></div> <h3 id="sizing">Sizing</h3> <div class="code-example"> <div class="form-group"> <input type="text" class="form-control form-control-xl" placeholder="Extra large input"/> </div> <div class="form-group"> <input type="text" class="form-control form-control-lg" placeholder="Large input"/> </div> <div class="form-group"> <input type="text" class="form-control" placeholder="Normal input"/> </div> <div class="form-group"> <input type="text" class="form-control form-control-sm" placeholder="Small input"/> </div> </div> <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre>
+                </div>
+                <h3 id="sizing">Sizing</h3>
+                <div class="code-example">
+                  <div class="form-group">
+                    <input type="text" class="form-control form-control-xl" placeholder="Extra large input" />
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control form-control-lg" placeholder="Large input" />
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Normal input" />
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control form-control-sm" placeholder="Small input" />
+                  </div>
+                </div>
+                <div class="highlight">
+                  <pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">class=</span><span class="s">"form-control form-control-xl"</span> <span class="na">placeholder=</span><span class="s">"Extra large input"</span><span class="nt">&gt;</span>
 <span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
@@ -21,7 +208,29 @@
 <span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">class=</span><span class="s">"form-control form-control-sm"</span> <span class="na">placeholder=</span><span class="s">"Small input"</span><span class="nt">&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre></div> <h3 id="input-groups">Input groups</h3> <div class="code-example"> <div class="form-group"> <div class="input-group input-group-transparent mb-4"> <div class="input-group-prepend"> <span class="input-group-text"><i class="fas fa-search"></i></span> </div> <input type="text" class="form-control" placeholder="Search"/> </div> </div> <div class="form-group"> <div class="input-group input-group-transparent mb-4"> <input type="text" class="form-control" placeholder="Birthday"/> <div class="input-group-append"> <span class="input-group-text"><i class="fas fa-calendar"></i></span> </div> </div> </div> </div> <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre>
+                </div>
+                <h3 id="input-groups">Input groups</h3>
+                <div class="code-example">
+                  <div class="form-group">
+                    <div class="input-group input-group-transparent mb-4">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-search"></i></span>
+                      </div>
+                      <input type="text" class="form-control" placeholder="Search" />
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="input-group input-group-transparent mb-4">
+                      <input type="text" class="form-control" placeholder="Birthday" />
+                      <div class="input-group-append">
+                        <span class="input-group-text"><i class="fas fa-calendar"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="highlight">
+                  <pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"input-group input-group-transparent mb-4"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"input-group-prepend"</span><span class="nt">&gt;</span>
             <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"input-group-text"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fas fa-search"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
@@ -36,7 +245,28 @@
             <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"input-group-text"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fas fa-calendar"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
         <span class="nt">&lt;/div&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre></div> <div class="code-example"> <div class="form-group"> <div class="input-group mb-4"> <div class="input-group-prepend"> <span class="input-group-text"><i class="fas fa-search"></i></span> </div> <input type="text" class="form-control" placeholder="Search keyword ..." aria-label="Search keyword" aria-describedby="basic-addon1"/> </div> </div> <div class="form-group"> <div class="input-group"> <input type="text" class="form-control" placeholder="Enter your email" aria-label="Enter your email" aria-describedby="basic-addon2"/> <div class="input-group-append"> <span class="input-group-text" id="basic-addon2">@example.com</span> </div> </div> </div> </div> <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre>
+                </div>
+                <div class="code-example">
+                  <div class="form-group">
+                    <div class="input-group mb-4">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-search"></i></span>
+                      </div>
+                      <input type="text" class="form-control" placeholder="Search keyword ..." aria-label="Search keyword" aria-describedby="basic-addon1" />
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="input-group">
+                      <input type="text" class="form-control" placeholder="Enter your email" aria-label="Enter your email" aria-describedby="basic-addon2" />
+                      <div class="input-group-append">
+                        <span class="input-group-text" id="basic-addon2">@example.com</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="highlight">
+                  <pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"input-group mb-4"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"input-group-prepend"</span><span class="nt">&gt;</span>
             <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"input-group-text"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fas fa-search"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
@@ -51,7 +281,36 @@
             <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"input-group-text"</span> <span class="na">id=</span><span class="s">"basic-addon2"</span><span class="nt">&gt;</span>@example.com<span class="nt">&lt;/span&gt;</span>
         <span class="nt">&lt;/div&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre></div> <h3 id="input-with-selectpicker">Input with selectpicker</h3> <div class="code-example"> <div class="form-group"> <div class="input-group"> <div class="input-group-prepend"> <select class="selectpicker"> <option>http://</option> <option>https://</option> </select> </div> <input type="text" class="form-control"/> </div> </div> <div class="form-group"> <div class="input-group"> <input type="text" class="form-control"/> <div class="input-group-append"> <select class="selectpicker"> <option>.com</option> <option>.net</option> <option>.ro</option> </select> </div> </div> </div> </div> <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre>
+                </div>
+                <h3 id="input-with-selectpicker">Input with selectpicker</h3>
+                <div class="code-example">
+                  <div class="form-group">
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <select class="selectpicker">
+                          <option>http://</option>
+                          <option>https://</option>
+                        </select>
+                      </div>
+                      <input type="text" class="form-control" />
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="input-group">
+                      <input type="text" class="form-control" />
+                      <div class="input-group-append">
+                        <select class="selectpicker">
+                          <option>.com</option>
+                          <option>.net</option>
+                          <option>.ro</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="highlight">
+                  <pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"input-group"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"input-group-prepend"</span><span class="nt">&gt;</span>
             <span class="nt">&lt;select</span> <span class="na">class=</span><span class="s">"selectpicker"</span><span class="nt">&gt;</span>
@@ -73,7 +332,25 @@
             <span class="nt">&lt;/select&gt;</span>
         <span class="nt">&lt;/div&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre></div> <h3 id="input-with-button">Input with button</h3> <div class="code-example"> <div class="input-group mb-3"> <div class="input-group-prepend"> <button class="btn btn-primary" type="button">Button</button> </div> <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1"/> </div> <div class="input-group mb-3"> <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2"/> <div class="input-group-append"> <button class="btn btn-primary" type="button">Button</button> </div> </div> </div> <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"input-group mb-3"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre>
+                </div>
+                <h3 id="input-with-button">Input with button</h3>
+                <div class="code-example">
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <button class="btn btn-primary" type="button">Button</button>
+                    </div>
+                    <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1" />
+                  </div>
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+                    <div class="input-group-append">
+                      <button class="btn btn-primary" type="button">Button</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="highlight">
+                  <pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"input-group mb-3"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"input-group-prepend"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"btn btn-primary"</span> <span class="na">type=</span><span class="s">"button"</span><span class="nt">&gt;</span>Button<span class="nt">&lt;/button&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
@@ -84,7 +361,40 @@
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"input-group-append"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"btn btn-primary"</span> <span class="na">type=</span><span class="s">"button"</span><span class="nt">&gt;</span>Button<span class="nt">&lt;/button&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre></div> <h3 id="selectpicker">Selectpicker</h3> <div class="code-example"> <div class="row mb-4"> <div class="col-md-6"> <select class="selectpicker" title="Simple select" data-live-search="true" data-live-search-placeholder="Search ..."> <option>Alerts</option> <option>Badges</option> <option>Buttons</option> <option>Cards</option> <option>Forms</option> <option>Modals</option> </select> </div> <div class="col-md-6"> <select class="selectpicker" title="Option groups" data-live-search="true" data-live-search-placeholder="Search ..." multiple=""> <optgroup label="Components"> <option>Alerts</option> <option>Badges</option> <option>Buttons</option> <option>Cards</option> </optgroup> <optgroup label="Utilities"> <option>Borders</option> <option>Colors</option> <option>Typography</option> </optgroup> </select> </div> </div> </div> <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row mb-4"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre>
+                </div>
+                <h3 id="selectpicker">Selectpicker</h3>
+                <div class="code-example">
+                  <div class="row mb-4">
+                    <div class="col-md-6">
+                      <select class="selectpicker" title="Simple select" data-live-search="true" data-live-search-placeholder="Search ...">
+                        <option>Alerts</option>
+                        <option>Badges</option>
+                        <option>Buttons</option>
+                        <option>Cards</option>
+                        <option>Forms</option>
+                        <option>Modals</option>
+                      </select>
+                    </div>
+                    <div class="col-md-6">
+                      <select class="selectpicker" title="Option groups" data-live-search="true" data-live-search-placeholder="Search ..." multiple="">
+                        <optgroup label="Components">
+                          <option>Alerts</option>
+                          <option>Badges</option>
+                          <option>Buttons</option>
+                          <option>Cards</option>
+                        </optgroup>
+                        <optgroup label="Utilities">
+                          <option>Borders</option>
+                          <option>Colors</option>
+                          <option>Typography</option>
+                        </optgroup>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="highlight">
+                  <pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row mb-4"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-6"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;select</span> <span class="na">class=</span><span class="s">"selectpicker"</span> <span class="na">title=</span><span class="s">"Simple select"</span> <span class="na">data-live-search=</span><span class="s">"true"</span> <span class="na">data-live-search-placeholder=</span><span class="s">"Search ..."</span><span class="nt">&gt;</span>
             <span class="nt">&lt;option&gt;</span>Alerts<span class="nt">&lt;/option&gt;</span>
@@ -110,7 +420,32 @@
             <span class="nt">&lt;/optgroup&gt;</span>
         <span class="nt">&lt;/select&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre></div> <h3 id="tagsinput">Tagsinput</h3> <div class="code-example"> <input type="text" class="form-control" value="Bucharest, Cluj, Iasi, Timisoara, Piatra Neamt" data-role="tagsinput"/> </div> <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">class=</span><span class="s">"form-control"</span> <span class="na">value=</span><span class="s">"Bucharest, Cluj, Iasi, Timisoara, Piatra Neamt"</span> <span class="na">data-role=</span><span class="s">"tagsinput"</span> <span class="nt">/&gt;</span></code></pre></div> <h3 id="textarea">Textarea</h3> <div class="code-example"> <div class="form-group"> <label>Fixed textarea</label> <textarea class="form-control" placeholder="This is a fixed height textarea" rows="3" resize="none"></textarea> </div> <div class="form-group"> <label>Resizable textarea</label> <textarea class="form-control" placeholder="You can manually resize this textarea" rows="3"></textarea> </div> <div class="form-group"> <label>Autosize textarea</label> <textarea class="form-control textarea-autosize" placeholder="This textarea will autosize while you type" rows="1"></textarea> </div> </div> <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre>
+                </div>
+                <h3 id="tagsinput">Tagsinput</h3>
+                <div class="code-example">
+                  <input type="text" class="form-control" value="Bucharest, Cluj, Iasi, Timisoara, Piatra Neamt" data-role="tagsinput" />
+                </div>
+                <div class="highlight">
+                  <pre><code class="language-html" data-lang="html"><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">class=</span><span class="s">"form-control"</span> <span class="na">value=</span><span class="s">"Bucharest, Cluj, Iasi, Timisoara, Piatra Neamt"</span> <span class="na">data-role=</span><span class="s">"tagsinput"</span> <span class="nt">/&gt;</span></code></pre>
+                </div>
+                <h3 id="textarea">Textarea</h3>
+                <div class="code-example">
+                  <div class="form-group">
+                    <label>Fixed textarea</label>
+                    <textarea class="form-control" placeholder="This is a fixed height textarea" rows="3" resize="none"></textarea>
+                  </div>
+                  <div class="form-group">
+                    <label>Resizable textarea</label>
+                    <textarea class="form-control" placeholder="You can manually resize this textarea" rows="3"></textarea>
+                  </div>
+                  <div class="form-group">
+                    <label>Autosize textarea</label>
+                    <textarea class="form-control textarea-autosize" placeholder="This textarea will autosize while you type" rows="1"></textarea>
+                  </div>
+                </div>
+                <div class="highlight">
+                  <pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;label&gt;</span>Fixed textarea<span class="nt">&lt;/label&gt;</span>
     <span class="nt">&lt;textarea</span> <span class="na">class=</span><span class="s">"form-control"</span> <span class="na">placeholder=</span><span class="s">"This is a fixed height textarea"</span> <span class="na">rows=</span><span class="s">"3"</span> <span class="na">resize=</span><span class="s">"none"</span><span class="nt">&gt;&lt;/textarea&gt;</span>
 <span class="nt">&lt;/div&gt;</span>
@@ -121,7 +456,29 @@
 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;label&gt;</span>Autosize textarea<span class="nt">&lt;/label&gt;</span>
     <span class="nt">&lt;textarea</span> <span class="na">class=</span><span class="s">"form-control textarea-autosize"</span> <span class="na">placeholder=</span><span class="s">"This textarea will autosize while you type"</span> <span class="na">rows=</span><span class="s">"1"</span><span class="nt">&gt;&lt;/textarea&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre></div> <h3 id="checkboxes">Checkboxes</h3> <div class="code-example"> <div class="custom-control custom-checkbox mb-3"> <input type="checkbox" class="custom-control-input" id="customCheck1"/> <label class="custom-control-label" for="customCheck1">Unchecked</label> </div> <div class="custom-control custom-checkbox mb-3"> <input type="checkbox" class="custom-control-input" id="customCheck2" checked=""/> <label class="custom-control-label" for="customCheck2">Checked</label> </div> <div class="custom-control custom-checkbox mb-3"> <input type="checkbox" class="custom-control-input" id="customCheck3" disabled=""/> <label class="custom-control-label" for="customCheck3">Disabled unchecked</label> </div> <div class="custom-control custom-checkbox mb-3"> <input type="checkbox" class="custom-control-input" id="customCheck4" checked="" disabled=""/> <label class="custom-control-label" for="customCheck4">Disabled checked</label> </div> </div> <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"custom-control custom-checkbox mb-3"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre>
+                </div>
+                <h3 id="checkboxes">Checkboxes</h3>
+                <div class="code-example">
+                  <div class="custom-control custom-checkbox mb-3">
+                    <input type="checkbox" class="custom-control-input" id="customCheck1" />
+                    <label class="custom-control-label" for="customCheck1">Unchecked</label>
+                  </div>
+                  <div class="custom-control custom-checkbox mb-3">
+                    <input type="checkbox" class="custom-control-input" id="customCheck2" checked="" />
+                    <label class="custom-control-label" for="customCheck2">Checked</label>
+                  </div>
+                  <div class="custom-control custom-checkbox mb-3">
+                    <input type="checkbox" class="custom-control-input" id="customCheck3" disabled="" />
+                    <label class="custom-control-label" for="customCheck3">Disabled unchecked</label>
+                  </div>
+                  <div class="custom-control custom-checkbox mb-3">
+                    <input type="checkbox" class="custom-control-input" id="customCheck4" checked="" disabled="" />
+                    <label class="custom-control-label" for="customCheck4">Disabled checked</label>
+                  </div>
+                </div>
+                <div class="highlight">
+                  <pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"custom-control custom-checkbox mb-3"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">class=</span><span class="s">"custom-control-input"</span> <span class="na">id=</span><span class="s">"customCheck1"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"custom-control-label"</span> <span class="na">for=</span><span class="s">"customCheck1"</span><span class="nt">&gt;</span>Unchecked<span class="nt">&lt;/label&gt;</span>
 <span class="nt">&lt;/div&gt;</span>
@@ -136,7 +493,28 @@
 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"custom-control custom-checkbox mb-3"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">class=</span><span class="s">"custom-control-input"</span> <span class="na">id=</span><span class="s">"customCheck4"</span> <span class="na">checked=</span><span class="s">""</span> <span class="na">disabled=</span><span class="s">""</span><span class="nt">&gt;</span>
     <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"custom-control-label"</span> <span class="na">for=</span><span class="s">"customCheck4"</span><span class="nt">&gt;</span>Disabled checked<span class="nt">&lt;/label&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre></div> <div class="code-example"> <div class="btn-group btn-group-toggle" data-toggle="buttons"> <label class="btn btn-primary active"> <input type="checkbox" name="options" id="checkboxButton1" autocomplete="off" checked=""/> Checkbox button </label> </div> <div class="btn-group btn-group-toggle" data-toggle="buttons"> <label class="btn btn-primary active"> <input type="checkbox" name="options" id="checkboxButton2" autocomplete="off" checked=""/> Active </label> <label class="btn btn-primary"> <input type="checkbox" name="options" id="checkboxButton3" autocomplete="off"/> Checkbox </label> <label class="btn btn-primary"> <input type="checkbox" name="options" id="checkboxButton4" autocomplete="off"/> Checkbox </label> </div> </div> <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"btn-group btn-group-toggle"</span> <span class="na">data-toggle=</span><span class="s">"buttons"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre>
+                </div>
+                <div class="code-example">
+                  <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-primary active">
+                      <input type="checkbox" name="options" id="checkboxButton1" autocomplete="off" checked="" /> Checkbox button
+                    </label>
+                  </div>
+                  <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-primary active">
+                      <input type="checkbox" name="options" id="checkboxButton2" autocomplete="off" checked="" /> Active
+                    </label>
+                    <label class="btn btn-primary">
+                      <input type="checkbox" name="options" id="checkboxButton3" autocomplete="off" /> Checkbox
+                    </label>
+                    <label class="btn btn-primary">
+                      <input type="checkbox" name="options" id="checkboxButton4" autocomplete="off" /> Checkbox
+                    </label>
+                  </div>
+                </div>
+                <div class="highlight">
+                  <pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"btn-group btn-group-toggle"</span> <span class="na">data-toggle=</span><span class="s">"buttons"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"btn btn-primary active"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">name=</span><span class="s">"options"</span> <span class="na">id=</span><span class="s">"checkboxButton1"</span> <span class="na">autocomplete=</span><span class="s">"off"</span> <span class="na">checked</span><span class="nt">&gt;</span> Checkbox button
     <span class="nt">&lt;/label&gt;</span>
@@ -151,7 +529,29 @@
     <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"btn btn-primary"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">name=</span><span class="s">"options"</span> <span class="na">id=</span><span class="s">"checkboxButton4"</span> <span class="na">autocomplete=</span><span class="s">"off"</span><span class="nt">&gt;</span> Checkbox
     <span class="nt">&lt;/label&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre></div> <h3 id="radio-buttons">Radio buttons</h3> <div class="code-example"> <div class="custom-control custom-radio mb-3"> <input type="radio" name="custom-radio-1" class="custom-control-input" id="customRadio1"/> <label class="custom-control-label" for="customRadio1">Unchecked</label> </div> <div class="custom-control custom-radio mb-3"> <input type="radio" name="custom-radio-1" class="custom-control-input" id="customRadio2" checked=""/> <label class="custom-control-label" for="customRadio2">Checked</label> </div> <div class="custom-control custom-radio mb-3"> <input type="radio" name="custom-radio-1" class="custom-control-input" id="customRadio3" disabled=""/> <label class="custom-control-label" for="customRadio3">Disabled unchecked</label> </div> <div class="custom-control custom-radio mb-3"> <input type="radio" name="custom-radio-1" class="custom-control-input" id="customRadio4" checked="" disabled=""/> <label class="custom-control-label" for="customRadio4">Disabled checkbox</label> </div> </div> <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"custom-control custom-radio mb-3"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre>
+                </div>
+                <h3 id="radio-buttons">Radio buttons</h3>
+                <div class="code-example">
+                  <div class="custom-control custom-radio mb-3">
+                    <input type="radio" name="custom-radio-1" class="custom-control-input" id="customRadio1" />
+                    <label class="custom-control-label" for="customRadio1">Unchecked</label>
+                  </div>
+                  <div class="custom-control custom-radio mb-3">
+                    <input type="radio" name="custom-radio-1" class="custom-control-input" id="customRadio2" checked="" />
+                    <label class="custom-control-label" for="customRadio2">Checked</label>
+                  </div>
+                  <div class="custom-control custom-radio mb-3">
+                    <input type="radio" name="custom-radio-1" class="custom-control-input" id="customRadio3" disabled="" />
+                    <label class="custom-control-label" for="customRadio3">Disabled unchecked</label>
+                  </div>
+                  <div class="custom-control custom-radio mb-3">
+                    <input type="radio" name="custom-radio-1" class="custom-control-input" id="customRadio4" checked="" disabled="" />
+                    <label class="custom-control-label" for="customRadio4">Disabled checkbox</label>
+                  </div>
+                </div>
+                <div class="highlight">
+                  <pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"custom-control custom-radio mb-3"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">name=</span><span class="s">"custom-radio-1"</span> <span class="na">class=</span><span class="s">"custom-control-input"</span> <span class="na">id=</span><span class="s">"customRadio1"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"custom-control-label"</span> <span class="na">for=</span><span class="s">"customRadio1"</span><span class="nt">&gt;</span>Unchecked<span class="nt">&lt;/label&gt;</span>
 <span class="nt">&lt;/div&gt;</span>
@@ -166,7 +566,28 @@
 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"custom-control custom-radio mb-3"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">name=</span><span class="s">"custom-radio-1"</span>  <span class="na">class=</span><span class="s">"custom-control-input"</span> <span class="na">id=</span><span class="s">"customRadio4"</span> <span class="na">checked=</span><span class="s">""</span> <span class="na">disabled=</span><span class="s">""</span><span class="nt">&gt;</span>
     <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"custom-control-label"</span> <span class="na">for=</span><span class="s">"customRadio4"</span><span class="nt">&gt;</span>Disabled checkbox<span class="nt">&lt;/label&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre></div> <div class="code-example"> <div class="btn-group btn-group-toggle" data-toggle="buttons"> <label class="btn btn-primary active"> <input type="radio" name="custom-radio-3" id="radioButton1" autocomplete="off"/> Radio button </label> </div> <div class="btn-group btn-group-toggle" data-toggle="buttons"> <label class="btn btn-primary active"> <input type="radio" name="custom-radio-2" id="radioButton2" autocomplete="off" checked=""/> Active </label> <label class="btn btn-primary"> <input type="radio" name="custom-radio-2" id="radioButton3" autocomplete="off"/> Radio </label> <label class="btn btn-primary"> <input type="radio" name="custom-radio-2" id="radioButton4" autocomplete="off"/> Radio </label> </div> </div> <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"btn-group btn-group-toggle"</span> <span class="na">data-toggle=</span><span class="s">"buttons"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre>
+                </div>
+                <div class="code-example">
+                  <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-primary active">
+                      <input type="radio" name="custom-radio-3" id="radioButton1" autocomplete="off" /> Radio button
+                    </label>
+                  </div>
+                  <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-primary active">
+                      <input type="radio" name="custom-radio-2" id="radioButton2" autocomplete="off" checked="" /> Active
+                    </label>
+                    <label class="btn btn-primary">
+                      <input type="radio" name="custom-radio-2" id="radioButton3" autocomplete="off" /> Radio
+                    </label>
+                    <label class="btn btn-primary">
+                      <input type="radio" name="custom-radio-2" id="radioButton4" autocomplete="off" /> Radio
+                    </label>
+                  </div>
+                </div>
+                <div class="highlight">
+                  <pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"btn-group btn-group-toggle"</span> <span class="na">data-toggle=</span><span class="s">"buttons"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"btn btn-primary active"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">name=</span><span class="s">"custom-radio-3"</span> <span class="na">id=</span><span class="s">"radioButton1"</span> <span class="na">autocomplete=</span><span class="s">"off"</span><span class="nt">&gt;</span> Radio button
     <span class="nt">&lt;/label&gt;</span>
@@ -181,7 +602,59 @@
     <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"btn btn-primary"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">name=</span><span class="s">"custom-radio-2"</span>  <span class="na">id=</span><span class="s">"radioButton4"</span> <span class="na">autocomplete=</span><span class="s">"off"</span><span class="nt">&gt;</span> Radio
     <span class="nt">&lt;/label&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre></div> <h3 id="toggle-switch">Toggle switch</h3> <div class="code-example"> <div class="row mb-4"> <div class="col-md-4"> <label class="d-block">Untoggled switch</label> <label class="toggle-switch"> <input type="checkbox"/> <span class="toggle-switch-slider"></span> </label> </div> <div class="col-md-4"> <label class="d-block">Toggled switch</label> <label class="toggle-switch"> <input type="checkbox" checked=""/> <span class="toggle-switch-slider"></span> </label> </div> <div class="col-md-4"> <label class="d-block">Disabled switch</label> <label class="toggle-switch"> <input type="checkbox" disabled=""/> <span class="toggle-switch-slider"></span> </label> </div> </div> <div class="row"> <div class="col-md-4"> <label class="d-block">Untoggled switch</label> <label class="toggle-switch"> <input type="checkbox"/> <span class="toggle-switch-slider rounded-circle"></span> </label> </div> <div class="col-md-4"> <label class="d-block">Toggled switch</label> <label class="toggle-switch"> <input type="checkbox" checked=""/> <span class="toggle-switch-slider rounded-circle"></span> </label> </div> <div class="col-md-4"> <label class="d-block">Disabled switch</label> <label class="toggle-switch"> <input type="checkbox" disabled=""/> <span class="toggle-switch-slider rounded-circle"></span> </label> </div> </div> </div> <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row mb-4"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre>
+                </div>
+                <h3 id="toggle-switch">Toggle switch</h3>
+                <div class="code-example">
+                  <div class="row mb-4">
+                    <div class="col-md-4">
+                      <label class="d-block">Untoggled switch</label>
+                      <label class="toggle-switch">
+                        <input type="checkbox" />
+                        <span class="toggle-switch-slider"></span>
+                      </label>
+                    </div>
+                    <div class="col-md-4">
+                      <label class="d-block">Toggled switch</label>
+                      <label class="toggle-switch">
+                        <input type="checkbox" checked="" />
+                        <span class="toggle-switch-slider"></span>
+                      </label>
+                    </div>
+                    <div class="col-md-4">
+                      <label class="d-block">Disabled switch</label>
+                      <label class="toggle-switch">
+                        <input type="checkbox" disabled="" />
+                        <span class="toggle-switch-slider"></span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <label class="d-block">Untoggled switch</label>
+                      <label class="toggle-switch">
+                        <input type="checkbox" />
+                        <span class="toggle-switch-slider rounded-circle"></span>
+                      </label>
+                    </div>
+                    <div class="col-md-4">
+                      <label class="d-block">Toggled switch</label>
+                      <label class="toggle-switch">
+                        <input type="checkbox" checked="" />
+                        <span class="toggle-switch-slider rounded-circle"></span>
+                      </label>
+                    </div>
+                    <div class="col-md-4">
+                      <label class="d-block">Disabled switch</label>
+                      <label class="toggle-switch">
+                        <input type="checkbox" disabled="" />
+                        <span class="toggle-switch-slider rounded-circle"></span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="highlight">
+                  <pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row mb-4"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-4"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"d-block"</span><span class="nt">&gt;</span>Untoggled switch<span class="nt">&lt;/label&gt;</span>
         <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"toggle-switch"</span><span class="nt">&gt;</span>
@@ -226,7 +699,87 @@
             <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"toggle-switch-slider rounded-circle"</span><span class="nt">&gt;&lt;/span&gt;</span>
         <span class="nt">&lt;/label&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre></div> <h3 id="range-slider">Range slider</h3> <div class="code-example"> <div class="row"> <div class="col-lg-6"> <div class="input-slider-container"> <div id="input-slider" class="input-slider" data-range-value-min="100" data-range-value-max="500"></div> <div class="row mt-3"> <div class="col-6"> <span id="input-slider-value" class="range-slider-value" data-range-value-low="100"></span> </div> </div> </div> </div> <div class="col-lg-6"> <div class="range-slider-wrapper "> <div id="input-slider-range" data-range-value-min="100" data-range-value-max="500"></div> <div class="row"> <div class="col-6"> <span class="range-slider-value value-low" data-range-value-low="200" id="input-slider-range-value-low"></span> </div> <div class="col-6 text-right"> <span class="range-slider-value value-high" data-range-value-high="400" id="input-slider-range-value-high"></span> </div> </div> </div> </div> </div> <div class="row mt-5"> <div class="col-lg-6"> <div class="input-slider-container mb-5"> <div id="input-slider-red" class="input-slider input-slider--red" data-range-value-min="100" data-range-value-max="900"></div> <div class="row mt-3"> <div class="col-6"> <span id="input-slider-red-value" class="range-slider-value" data-range-value-low="200"></span> </div> </div> </div> <div class="input-slider-container mb-5"> <div id="input-slider-yellow" class="input-slider input-slider--yellow" data-range-value-min="100" data-range-value-max="900"></div> <div class="row mt-3"> <div class="col-6"> <span id="input-slider-yellow-value" class="range-slider-value" data-range-value-low="200"></span> </div> </div> </div> </div> <div class="col-lg-6"> <div class="input-slider-container mb-5"> <div id="input-slider-cyan" class="input-slider input-slider--cyan" data-range-value-min="100" data-range-value-max="900"></div> <div class="row mt-3"> <div class="col-6"> <span id="input-slider-cyan-value" class="range-slider-value" data-range-value-low="200"></span> </div> </div> </div> <div class="input-slider-container mb-5"> <div id="input-slider-pink" class="input-slider input-slider--pink" data-range-value-min="100" data-range-value-max="900"></div> <div class="row mt-3"> <div class="col-6"> <span id="input-slider-pink-value" class="range-slider-value" data-range-value-low="200"></span> </div> </div> </div> </div> </div> </div> <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span> 
+<span class="nt">&lt;/div&gt;</span></code></pre>
+                </div>
+                <h3 id="range-slider">Range slider</h3>
+                <div class="code-example">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <!-- Default input slider -->
+                      <div class="input-slider-container">
+                        <div id="input-slider" class="input-slider" data-range-value-min="100" data-range-value-max="500"></div>
+                        <!-- Input slider values -->
+                        <div class="row mt-3">
+                          <div class="col-6">
+                            <span id="input-slider-value" class="range-slider-value" data-range-value-low="100"></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="range-slider-wrapper ">
+                        <!-- Range slider container -->
+                        <div id="input-slider-range" data-range-value-min="100" data-range-value-max="500"></div>
+                        <!-- Range slider values -->
+                        <div class="row">
+                          <div class="col-6">
+                            <span class="range-slider-value value-low" data-range-value-low="200" id="input-slider-range-value-low"></span>
+                          </div>
+                          <div class="col-6 text-right">
+                            <span class="range-slider-value value-high" data-range-value-high="400" id="input-slider-range-value-high"></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mt-5">
+                    <div class="col-lg-6">
+                      <div class="input-slider-container mb-5">
+                        <div id="input-slider-red" class="input-slider input-slider--red" data-range-value-min="100" data-range-value-max="900"></div>
+                        <!-- Input slider values -->
+                        <div class="row mt-3">
+                          <div class="col-6">
+                            <span id="input-slider-red-value" class="range-slider-value" data-range-value-low="200"></span>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Yellow input slider -->
+                      <div class="input-slider-container mb-5">
+                        <div id="input-slider-yellow" class="input-slider input-slider--yellow" data-range-value-min="100" data-range-value-max="900"></div>
+                        <!-- Input slider values -->
+                        <div class="row mt-3">
+                          <div class="col-6">
+                            <span id="input-slider-yellow-value" class="range-slider-value" data-range-value-low="200"></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <!-- Cyan input slider -->
+                      <div class="input-slider-container mb-5">
+                        <div id="input-slider-cyan" class="input-slider input-slider--cyan" data-range-value-min="100" data-range-value-max="900"></div>
+                        <!-- Input slider values -->
+                        <div class="row mt-3">
+                          <div class="col-6">
+                            <span id="input-slider-cyan-value" class="range-slider-value" data-range-value-low="200"></span>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Pink input slider -->
+                      <div class="input-slider-container mb-5">
+                        <div id="input-slider-pink" class="input-slider input-slider--pink" data-range-value-min="100" data-range-value-max="900"></div>
+                        <!-- Input slider values -->
+                        <div class="row mt-3">
+                          <div class="col-6">
+                            <span id="input-slider-pink-value" class="range-slider-value" data-range-value-low="200"></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="highlight">
+                  <pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span> 
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-lg-6"</span><span class="nt">&gt;</span>
         <span class="c">&lt;!-- Default input slider --&gt;</span>
         <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"input-slider-container"</span><span class="nt">&gt;</span>
@@ -299,7 +852,27 @@
             <span class="nt">&lt;/div&gt;</span>
         <span class="nt">&lt;/div&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre></div> <h3 id="file-browser">File browser</h3> <div class="code-example"> <div> <input type="file" name="file-1[]" id="file-1" class="custom-input-file" data-multiple-caption="{count} files selected" multiple=""/> <label for="file-1"> <i class="fa fa-upload"></i> <span>Choose a file…</span> </label> </div> <div> <input type="file" name="file-2[]" id="file-2" class="custom-input-file custom-input-file--2" data-multiple-caption="{count} files selected" multiple=""/> <label for="file-2"> <i class="fa fa-upload"></i> <span>Choose a file…</span> </label> </div> </div> <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre>
+                </div>
+                <h3 id="file-browser">File browser</h3>
+                <div class="code-example">
+                  <div>
+                    <input type="file" name="file-1[]" id="file-1" class="custom-input-file" data-multiple-caption="{count} files selected" multiple="" />
+                    <label for="file-1">
+                      <i class="fa fa-upload"></i>
+                      <span>Choose a file…</span>
+                    </label>
+                  </div>
+                  <div>
+                    <input type="file" name="file-2[]" id="file-2" class="custom-input-file custom-input-file--2" data-multiple-caption="{count} files selected" multiple="" />
+                    <label for="file-2">
+                      <i class="fa fa-upload"></i>
+                      <span>Choose a file…</span>
+                    </label>
+                  </div>
+                </div>
+                <div class="highlight">
+                  <pre><code class="language-html" data-lang="html"><span class="nt">&lt;div&gt;</span>
     <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"file"</span> <span class="na">name=</span><span class="s">"file-1[]"</span> <span class="na">id=</span><span class="s">"file-1"</span> <span class="na">class=</span><span class="s">"custom-input-file"</span> <span class="na">data-multiple-caption=</span><span class="s">"{count} files selected"</span> <span class="na">multiple</span> <span class="nt">/&gt;</span>
     <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"file-1"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-upload"</span><span class="nt">&gt;&lt;/i&gt;</span>
@@ -312,4 +885,80 @@
         <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-upload"</span><span class="nt">&gt;&lt;/i&gt;</span>
         <span class="nt">&lt;span&gt;</span>Choose a file…<span class="nt">&lt;/span&gt;</span>
     <span class="nt">&lt;/label&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre></div> </div> <div class="col-lg-3 d-none d-lg-inline-block"> <div class="sidebar-sticky" data-stick-in-parent="true"> <ul class="section-nav"> <li class="toc-entry toc-h3"><a href="#example">Example</a></li> <li class="toc-entry toc-h3"><a href="#borderless">Borderless</a></li> <li class="toc-entry toc-h3"><a href="#input-states">Input states</a></li> <li class="toc-entry toc-h3"><a href="#sizing">Sizing</a></li> <li class="toc-entry toc-h3"><a href="#input-groups">Input groups</a></li> <li class="toc-entry toc-h3"><a href="#input-with-selectpicker">Input with selectpicker</a></li> <li class="toc-entry toc-h3"><a href="#input-with-button">Input with button</a></li> <li class="toc-entry toc-h3"><a href="#selectpicker">Selectpicker</a></li> <li class="toc-entry toc-h3"><a href="#tagsinput">Tagsinput</a></li> <li class="toc-entry toc-h3"><a href="#textarea">Textarea</a></li> <li class="toc-entry toc-h3"><a href="#checkboxes">Checkboxes</a></li> <li class="toc-entry toc-h3"><a href="#radio-buttons">Radio buttons</a></li> <li class="toc-entry toc-h3"><a href="#toggle-switch">Toggle switch</a></li> <li class="toc-entry toc-h3"><a href="#range-slider">Range slider</a></li> <li class="toc-entry toc-h3"><a href="#file-browser">File browser</a></li> </ul> </div> </div> </div> </div> </div> <footer class="px-3 footer bg-white"> <div class="container "> <div class="row align-items-center py-3 border-top"> <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0"> &copy; 2018 <a href="https://webpixels.io/" target="_blank">Webpixels</a>. All rights reserved. </div> <div class="col-lg-6 text-center text-lg-right"> <ul class="nav justify-content-center justify-content-lg-end"> <li class="nav-item"> <a class="nav-link active" href="#"><i class="fab fa-instagram"></i></a> </li> <li class="nav-item"> <a class="nav-link" href="#"><i class="fab fa-facebook"></i></a> </li> <li class="nav-item"> <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a> </li> <li class="nav-item"> <a class="nav-link" href="#"><i class="fab fa-github"></i></a> </li> <li class="nav-item"> <a class="nav-link" href="#"><i class="fab fa-dribbble"></i></a> </li> </ul> </div> </div> </div> </footer> </section> </main> <script src="../assets/vendor/jquery/jquery.min.js"></script> <script src="../assets/vendor/popper/popper.min.js"></script> <script src="../assets/js/bootstrap/bootstrap.min.js"></script> <script src="../assets/vendor/fontawesome/js/fontawesome-all.min.js" defer></script> <script src="../assets/vendor/jquery-scrollbar/js/jquery-scrollbar.min.js"></script> <script src="../assets/vendor/jquery-scrollLock/jquery-scrollLock.min.js"></script> <script src="../assets/vendor/sticky-kit/sticky-kit.min.js"></script> <script src="../assets/vendor/highlight/js/highlight.min.js"></script> <script src="../assets/vendor/clipboard-js/clipboard.min.js"></script> <script src="../assets/vendor/holderjs/holder.min.js"></script> <script src="../assets/js/demo.js"></script> <script src="../assets/vendor/bootstrap-select/js/bootstrap-select.min.js"></script> <script src="../assets/vendor/bootstrap-tagsinput/bootstrap-tagsinput.min.js"></script> <script src="../assets/vendor/input-mask/input-mask.min.js"></script> <script src="../assets/vendor/nouislider/js/nouislider.min.js"></script> <script src="../assets/vendor/textarea-autosize/textarea-autosize.min.js"></script> <script src="../assets/js/theme.js"></script> </body> </html>
+<span class="nt">&lt;/div&gt;</span></code></pre>
+                </div>
+              </div>
+              <div class="col-lg-3 d-none d-lg-inline-block">
+                <div class="sidebar-sticky" data-stick-in-parent="true">
+                  <ul class="section-nav">
+                    <li class="toc-entry toc-h3"><a href="#example">Example</a></li>
+                    <li class="toc-entry toc-h3"><a href="#borderless">Borderless</a></li>
+                    <li class="toc-entry toc-h3"><a href="#input-states">Input states</a></li>
+                    <li class="toc-entry toc-h3"><a href="#sizing">Sizing</a></li>
+                    <li class="toc-entry toc-h3"><a href="#input-groups">Input groups</a></li>
+                    <li class="toc-entry toc-h3"><a href="#input-with-selectpicker">Input with selectpicker</a></li>
+                    <li class="toc-entry toc-h3"><a href="#input-with-button">Input with button</a></li>
+                    <li class="toc-entry toc-h3"><a href="#selectpicker">Selectpicker</a></li>
+                    <li class="toc-entry toc-h3"><a href="#tagsinput">Tagsinput</a></li>
+                    <li class="toc-entry toc-h3"><a href="#textarea">Textarea</a></li>
+                    <li class="toc-entry toc-h3"><a href="#checkboxes">Checkboxes</a></li>
+                    <li class="toc-entry toc-h3"><a href="#radio-buttons">Radio buttons</a></li>
+                    <li class="toc-entry toc-h3"><a href="#toggle-switch">Toggle switch</a></li>
+                    <li class="toc-entry toc-h3"><a href="#range-slider">Range slider</a></li>
+                    <li class="toc-entry toc-h3"><a href="#file-browser">File browser</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="px-3 footer bg-white">
+          <div class="container ">
+            <div class="row align-items-center py-3 border-top">
+              <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
+                &copy; 2018 <a href="https://webpixels.io/" target="_blank">Webpixels</a>. All rights reserved.
+              </div>
+              <div class="col-lg-6 text-center text-lg-right">
+                <ul class="nav justify-content-center justify-content-lg-end">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="https://instagram.com/webpixelsofficial" target="_blank"><i class="fab fa-instagram"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://facebook.com/webpixels" target="_blank"><i class="fab fa-facebook"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/webpixels" target="_blank"><i class="fab fa-github"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://dribbble.com/webpixels" target="_blank"><i class="fab fa-dribbble"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </section>
+    </main>
+    <!-- Core -->
+    <script src="../assets/vendor/jquery/jquery.min.js"></script>
+    <script src="../assets/vendor/popper/popper.min.js"></script>
+    <script src="../assets/js/bootstrap/bootstrap.min.js"></script>
+    <!-- FontAwesome 5 -->
+    <script src="../assets/vendor/fontawesome/js/fontawesome-all.min.js" defer></script>
+    <!-- Scripts used only for this demo only - Remove these in your project -->
+    <script src="../assets/vendor/jquery-scrollbar/js/jquery-scrollbar.min.js"></script>
+    <script src="../assets/vendor/jquery-scrollLock/jquery-scrollLock.min.js"></script>
+    <script src="../assets/vendor/sticky-kit/sticky-kit.min.js"></script>
+    <script src="../assets/vendor/highlight/js/highlight.min.js"></script>
+    <script src="../assets/vendor/clipboard-js/clipboard.min.js"></script>
+    <script src="../assets/vendor/holderjs/holder.min.js"></script>
+    <script src="../assets/js/demo.js"></script>
+    <script src="../assets/vendor/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <script src="../assets/vendor/bootstrap-tagsinput/bootstrap-tagsinput.min.js"></script>
+    <script src="../assets/vendor/input-mask/input-mask.min.js"></script>
+    <script src="../assets/vendor/nouislider/js/nouislider.min.js"></script>
+    <script src="../assets/vendor/textarea-autosize/textarea-autosize.min.js"></script>
+    <!-- Theme JS -->
+    <script src="../assets/js/theme.js"></script>
+  </body>
+</html>
