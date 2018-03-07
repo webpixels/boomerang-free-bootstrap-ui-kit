@@ -1,0 +1,104 @@
+.progress-wrapper {
+    position: relative;
+    padding-top: 1.5rem;
+}
+.progress {
+    height: 1rem;
+    margin-bottom: $spacer;
+    overflow: hidden;
+    border-radius: $border-radius-sm;
+    background-color: $progress-bg;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.progress-inverse {
+    background-color: $dark;
+}
+.progress.progress-lg {
+    height: 1.5rem;
+}
+.progress.progress-md {
+    height: 1rem;
+}
+.progress.progress-sm {
+    height: 0.625rem;
+}
+.progress.progress-xs {
+    height: 0.25rem;
+}
+.progress .sr-only {
+    width: auto;
+    height: 20px;
+    margin: 0 0 0 30px;
+    left: 0;
+    clip: auto;
+    line-height: 20px;
+    font-size: 13px;
+}
+
+.progress-heading {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 0 2px;
+    padding: 0;
+}
+.progress-bar {
+    //background-color: $progress-active-bg;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+    height: auto;
+}
+.progress-text {
+    margin-bottom: 0;
+}
+.progress-text .mark {
+    float: left;
+    width: 50%;
+    background: transparent;
+}
+.progress-text .mark.right {
+    text-align: right;
+}
+.progress-tooltip {
+    display: inline-block;
+    background: rgba(0, 0, 0, .8);
+    color: $white;
+    padding: .25rem .375rem;
+    line-height: 1;
+    font-size: 0.7rem;
+    position: relative;
+    bottom: 8px;
+    border-radius: 3px;
+    margin-left: -15px;
+}
+.progress-tooltip:after {
+    top: 100%;
+    left: 10px;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(51, 51, 51, 0);
+    border-top-color: rgba(0, 0, 0, .8);
+    border-width: 5px;
+}
+.progress-label {
+    display: inline-block;
+    color: $gray-600;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: $font-size-xs;
+}
+.progress-percentage {
+    display: inline-block;
+    color: $gray-600;
+    font-size: 1rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+}

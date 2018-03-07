@@ -1,0 +1,47 @@
+// General styles
+body {
+	font-family: $font-family-base;
+    font-size: $font-size-base;
+    line-height: $line-height-base;
+}
+
+
+// Headings
+.heading {
+	font-family: $font-family-alt;
+}
+
+
+// Fluid paragraph
+.fluid-paragraph {
+	width: 680px;
+	margin: auto;
+	padding: 0 1.5rem;
+	position: relative;
+}
+
+@media (max-width: 767px) {
+	.fluid-paragraph {
+		width: 100%;
+	}
+}
+
+
+// Links
+
+.link {
+	@if $enable-transitions {
+		transition: all 0.3s ease-in-out;
+    	-webkit-transition: all 0.3s ease-in-out;
+	}
+}
+
+[data-link="1"] {
+	padding-bottom: 8px;
+	border-bottom: 3px solid theme-color("primary");
+	color: $gray-800;
+
+	&:hover {
+		color: theme-color("primary");
+	}
+}

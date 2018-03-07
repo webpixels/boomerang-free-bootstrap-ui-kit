@@ -1,0 +1,193 @@
+.navbar-nav {
+    .nav-link {
+        font-size: $navbar-nav-link-font-size;
+        font-family: $navbar-nav-link-font-family;
+        font-weight: $navbar-nav-link-font-weight;
+        text-transform: $navbar-nav-link-text-transform;
+        letter-spacing: $navbar-nav-link-letter-spacing;
+        @if $enable-transitions {
+            -webkit-transition: $navbar-transition;
+            transition: $navbar-transition;
+        }
+    }
+
+    .dropdown-menu {}
+}
+
+@media (min-width: 992px) {
+    .navbar-nav {
+        .nav-item {
+            margin-right: 0.5rem;
+        }
+        .nav-link {
+            padding-top: $navbar-nav-link-padding-y;
+            padding-bottom: $navbar-nav-link-padding-y;
+            border-radius: $navbar-nav-link-border-radius;
+        }
+
+        .nav-link-icon {
+            border-radius: $navbar-nav-link-border-radius;
+        }
+    }
+}
+
+// Dark links against a light background
+.navbar-light {
+    .navbar-brand {
+        color: $navbar-light-active-color;
+
+        @include hover-focus {
+            color: $navbar-light-active-color;
+        }
+    }
+
+    .navbar-nav {
+        .nav-link {
+            color: $navbar-light-color;
+
+            @include hover-focus {
+                color: $navbar-light-hover-color;
+            }
+
+            &.disabled {
+                color: $navbar-light-disabled-color;
+            }
+        }
+
+        .show>.nav-link,
+        .active>.nav-link,
+        .nav-link.show,
+        .nav-link.active {
+            color: $navbar-light-active-color;
+        }
+    }
+
+    .navbar-toggler {
+        color: $navbar-light-color;
+        border-color: $navbar-light-toggler-border-color;
+    }
+
+    .navbar-toggler-icon {
+        background-image: $navbar-light-toggler-icon-bg;
+    }
+
+    .navbar-text {
+        color: $navbar-light-color;
+        a {
+            color: $navbar-light-active-color;
+
+            @include hover-focus {
+                color: $navbar-light-active-color;
+            }
+        }
+    }
+}
+
+// White links against a dark background
+.navbar-dark {
+    .navbar-nav {
+        .nav-link {
+            background-color: $navbar-dark-bg;
+
+            @include hover-focus {
+                background-color: $navbar-dark-hover-bg;
+            }
+        }
+
+        .show>.nav-link,
+        .active>.nav-link,
+        .nav-link.show,
+        .nav-link.active {
+            background-color: $navbar-dark-active-bg
+        }
+    } // .navbar-toggler {
+    //     color: $navbar-dark-color;
+    //     border-color: $navbar-dark-toggler-border-color;
+    // }
+    // .navbar-toggler-icon {
+    //     background-image: $navbar-dark-toggler-icon-bg;
+    // }
+    // .navbar-text {
+    //     color: $navbar-dark-color;
+    //     a {
+    //         color: $navbar-dark-active-color;
+    //         @include hover-focus {
+    //             color: $navbar-dark-active-color;
+    //         }
+    //     }
+    // }
+}
+
+
+// Transparent navbar
+@media(min-width: 992px) {
+    .navbar-transparent {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 100;
+        background-color: transparent !important;
+        border: 0;
+        box-shadow: none;
+    }
+
+    .navbar-transparent.border-bottom {
+        border-color: rgba(0, 0, 0, 0.1);
+    }
+}
+
+
+// Offset collapse
+@media (max-width: 991px) {
+    .offcanvas-collapse {
+        width: 270px;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 1050;
+        padding: 1.5rem;
+        overflow-y: auto;
+        transition: transform 300ms, opacity 300ms;
+        transform: translate3d(100%, 0, 0);
+        opacity: 0;
+
+        .navbar-nav .nav-item {
+            margin-bottom: 0.2rem;
+        }
+        .navbar-nav .nav-link {
+            padding-left: 1rem;
+            padding-right: 1rem;
+            border-radius: $border-radius;
+        }
+        .nav-link.active {
+
+        }
+    }
+    .offcanvas-collapse.open {
+        box-shadow: -5px 0px 10px 0px rgba(0,0,0,.15);
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+     
+    }
+
+    .navbar-light {
+        .offcanvas-collapse {
+            background-color: $white;
+        }
+
+        .dropdown-divider {
+            border-color: rgba(0, 0, 0, .1);
+        }
+    }
+
+    .navbar-dark {
+        .offcanvas-collapse {
+            background-color: $dark;
+        }
+
+        .dropdown-divider {
+            border-color: rgba(255, 255, 255, .1);
+        }
+    }
+}

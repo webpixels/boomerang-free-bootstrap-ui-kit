@@ -1,0 +1,10 @@
+// Backdrop
+.body-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 1040; // navbar fixed has a z-index of 1030
+} 

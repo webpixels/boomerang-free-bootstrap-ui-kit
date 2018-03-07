@@ -1,0 +1,24 @@
+.page-item .page-link,
+.page-item > span {
+    margin: 0 3px;
+    border-radius: $border-radius-sm;
+    text-align: center;
+}
+
+.pagination-circle .page-item .page-link,
+.pagination-circle .page-item > span {
+    border-radius: 50% !important;
+    margin: 0 5px;
+    display: block;
+    width: 36px;
+    height: 36px;
+}
+
+.pagination-circle.pagination-lg .page-item .page-link,
+.pagination-circle.pagination-lg .page-item > span {
+    border-radius: 50% !important;
+    margin: 0 5px;
+    display: block;
+    width: 52px;
+    height: 52px;
+}

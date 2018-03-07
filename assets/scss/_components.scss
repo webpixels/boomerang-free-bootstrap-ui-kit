@@ -1,0 +1,33 @@
+// Theme components
+@import "components/_alerts.scss";
+@import "components/_avatars.scss";
+@import "components/_badge.scss";
+@import "components/_buttons.scss";
+@import "components/_card.scss"; 
+@import "components/_close.scss";
+@import "components/_custom-forms.scss";
+@import "components/_delimiters.scss";
+@import "components/_dropdown.scss";
+@import "components/_footer.scss";
+@import "components/_forms.scss";
+@import "components/_icons.scss";
+@import "components/_input-group.scss";
+@import "components/_list-group.scss";
+@import "components/_masks.scss";
+@import "components/_modal.scss";
+@import "components/_nav.scss";
+@import "components/_navbar.scss";
+@import "components/_pagination.scss";
+@import "components/_popover.scss";
+@import "components/_progress.scss";
+@import "components/_section.scss";
+@import "components/_sidebar.scss";
+@import "components/_spotlight.scss";
+@import "components/_tables.scss";
+@import "components/_tooltip.scss";
+@import "components/_type.scss";
+
+// Vendor
+@import "components/vendor/_bootstrap-select.scss";
+@import "components/vendor/_bootstrap-tagsinput.scss";
+@import "components/vendor/_nouislider.scss";

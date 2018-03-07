@@ -1,0 +1,65 @@
+.star-rating {
+    display: inline-block;
+}
+
+.star-rating i {
+    display: inline-block;
+    color: $star-rating-color-active;
+    //font-size: $font;
+}
+.star-rating-sm i {
+    font-size: $font-size-xs;
+}
+// Rating stars: ANIMATED
+.rating {
+    display: inline-block;
+}
+
+.rating span.star {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    float: left;
+    padding: 0 1px;
+    cursor: pointer;
+}
+
+.rating span.star:before {
+    content: "\f005";
+    display: block;
+    font-size: 14px;
+    color: $star-rating-color;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.rating-lg span.star:before {
+    font-size: 18px;
+}
+
+.rating-xl span.star:before {
+    font-size: 24px;
+}
+
+.rating span.voted:before {
+    color: $star-rating-color-active;
+}
+
+.rating:hover span.star:before {
+    color: $star-rating-color;
+}
+
+.rating:hover span.star.over:before {
+    color: $star-rating-color-active;
+}
+
+// Rating - Other elements
+.rating > .rating-count {
+    font-size: $font-size-xs;
+    color: $color-gray-light;
+    position: relative;
+    top: -3px;
+    margin-left: $spacer;
+}

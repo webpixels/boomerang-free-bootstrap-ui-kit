@@ -1,0 +1,46 @@
+.badge a {
+    color: #FFF;
+}
+
+.badge-inline {
+    margin-right: .625rem;
+}
+
+.badge-inline + span {
+    top: 2px;
+    position: relative;
+}
+
+.badge-inline + span > a {
+    text-decoration: underline;
+}
+
+.badge-md {
+    padding: .65em 1em;
+}
+
+.badge-lg {
+    padding: .85em 1.375em;
+}
+
+
+// Dot badges
+
+.badge-dot {
+    padding-left: 0;
+    padding-right: 0;
+    background: transparent;
+    color: $gray-400;
+    font-size: $font-size-sm;
+}
+.badge-dot strong {
+    color: $gray-800;
+}
+.badge-dot > i {
+    display: inline-block;
+    vertical-align: middle;
+    width: 6px;
+    height: 6px;
+    border-radius: 6px;
+    margin-right: 6px;
+}

@@ -1,0 +1,144 @@
+// General styling
+.social-media {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    list-style: none;
+}
+.social-media > li {
+    display: inline-block;
+    font-size: 1rem;
+}
+.social-media > li > a {
+    display: block;
+}
+
+// Social - Style 1
+[class*="social-media--style-1"] > li > a {
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    margin-right: 0.3rem;
+    background: transparent;
+}
+[class*="social-media--style-1"] > li > a:hover {
+    background: $color-base-1;
+    color: $color-base-text-1;
+}
+.social-media-circle > li > a {
+    border-radius: 100%;
+}
+.social-media-round > li > a {
+    border-radius: $border-radius;
+}
+// STYLE 1 - Variation 1
+.social-media.social-media--style-1-v1 > li > a {
+    background: $color-base-1;
+    color: $color-base-text-1;
+}
+.social-media.social-media--style-1-v1 > li > a:hover {
+    background: darken($color-base-1, 10%);
+}
+// STYLE 1 - Variation 2
+.social-media.social-media--style-1-v2 > li > a {
+    background: #ddd;
+    color: #333;
+}
+.social-media.social-media--style-1-v2 > li > a:hover {
+    background: $color-base-1;
+    color: $color-base-text-1;
+}
+// STYLE 1 - Variation 3
+.social-media.social-media--style-1-v3 > li > a {
+    background: $color-gray-dark;
+    color: $color-gray-lighter;
+}
+.social-media.social-media--style-1-v3 > li > a:hover {
+    background: $color-base-1;
+    color: $color-base-text-1;
+}
+// STYLE 1 - Variation 4 (no bg color)
+.social-media.social-media--style-1-v4 > li > a {
+    font-size: 1rem;
+    width: auto;
+    height: auto;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 1rem;
+    background: transparent;
+    color: rgba(0, 0, 0, 0.7);
+}
+.social-media.social-media--style-1-v4 > li > a:hover {
+    background: transparent;
+    color: rgba(0, 0, 0, 0.9);
+}
+.social-media.social-media--style-1-v4 > li:last-child > a {
+    margin-right: 0;
+}
+// STYLE 1 - Variation 5 (no bg color)
+.social-media.social-media--style-1-v5 > li > a {
+    font-size: 1rem;
+    width: auto;
+    height: auto;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 1rem;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.7);
+}
+.social-media.social-media--style-1-v5 > li > a:hover {
+    background: transparent;
+    color: rgba(255, 255, 255, 1);
+}
+.social-media.social-media--style-1-v5 > li:last-child > a {
+    margin-right: 0;
+}
+.social-media.social-media--style-1-v5 > li > span {
+    color: rgba(255, 255, 255, 0.5);
+}
+// Original brand colors
+.social-media-brand-color > li > a.facebook,
+.social-media-brand-color--hover > li > a.facebook:hover {
+    background: $color-facebook;
+    color: $color-facebook-text;
+}
+.social-media-brand-color > li > a.twitter,
+.social-media-brand-color--hover > li > a.twitter:hover {
+    background: $color-twitter;
+    color: $color-twitter-text;
+}
+.social-media-brand-color > li > a.instagram,
+.social-media-brand-color--hover > li > a.instagram:hover {
+    background: $color-instagram;
+    color: $color-instagram-text;
+}
+.social-media-brand-color > li > a.linkedin,
+.social-media-brand-color--hover > li > a.linkedin:hover {
+    background: $color-linkedin;
+    color: $color-linkedin-text;
+}
+.social-media-brand-color > li > a.pinterest,
+.social-media-brand-color--hover > li > a.pinterest:hover {
+    background: $color-pinterest;
+    color: $color-pinterest-text;
+}
+.social-media-brand-color > li > a.dribbble,
+.social-media-brand-color--hover > li > a.dribbble:hover {
+    background: $color-dribbble;
+    color: $color-dribbble-text;
+}
+.social-media-brand-color > li > a.googleplus,
+.social-media-brand-color--hover > li > a.googleplus:hover  {
+    background: $color-googleplus;
+    color: $color-googleplus-text;
+}
+.social-media-brand-color > li > a.skype,
+.social-media-brand-color--hover > li > a.skype:hover {
+    background: $color-skype;
+    color: $color-skype-text;
+}
+.social-media-brand-color:not(.social-media-brand-color--hover) > li > a:hover  {
+    background: $color-base-1;
+    color: $color-base-text-1;
+}

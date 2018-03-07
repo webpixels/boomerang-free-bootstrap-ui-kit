@@ -1,0 +1,200 @@
+// Custom controls
+.custom-control-label {
+    // Background-color and (when enabled) gradient
+    &::before {
+        border: $custom-control-indicator-border-width solid $custom-control-indicator-border-color;
+        @if $enable-transitions {
+            transition: $input-transition;
+        } 
+    }
+
+    &:hover::before {
+        background: $component-hover-bg;
+        border-color: $component-hover-border-color;
+    }
+}
+
+.custom-control-input {
+    &:active~.custom-control-label::before {
+        border-color: $custom-control-indicator-active-border-color;
+    }
+}
+
+// Checkboxes */
+.custom-checkbox {
+    .custom-control-input~.custom-control-label {
+        &::after {
+            background-image: $custom-checkbox-indicator-icon-checked;
+        }
+    }
+
+    .custom-control-input:checked~.custom-control-label {
+        &::before {
+            border-color: $custom-control-indicator-checked-border-color;
+        }
+    }
+}
+
+// Radios
+.custom-radio {
+    .custom-control-input~.custom-control-label {
+        &::after {
+            background-image: $custom-radio-indicator-icon-checked;
+        }
+    }
+
+    .custom-control-input:checked~.custom-control-label {
+        &::before {
+            border-color: $custom-control-indicator-checked-border-color;
+        }
+    }
+}
+
+// Toggle switches
+
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 1.5rem;
+
+    input {
+        display: none;
+
+        &:checked+.toggle-switch-slider:before {
+            background-color: $custom-control-indicator-checked-bg;
+            border-color: $custom-control-indicator-checked-border-color;
+        }
+
+        &:checked+.toggle-switch-slider {
+            border: $custom-control-indicator-border-width solid $custom-control-indicator-checked-border-color;
+        }
+
+        &:focus+.toggle-switch-slider {
+            
+        }
+
+        &:checked+.toggle-switch-slider:before {
+            -webkit-transform: translateX(1.625rem);
+            -ms-transform: translateX(1.625rem);
+            transform: translateX(1.625rem);
+        }
+
+        &:disabled+.toggle-switch-slider {
+            border: $custom-control-indicator-border-width solid $custom-control-indicator-disabled-bg;
+        }
+        &:checked:disabled+.toggle-switch-slider {
+            border: $custom-control-indicator-border-width solid $custom-control-indicator-disabled-bg;
+        }
+        &:checked:disabled+.toggle-switch-slider:before {
+            background-color: lighten($custom-control-indicator-checked-bg, 10%);
+        }
+    }
+}
+
+.toggle-switch-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: $custom-control-indicator-border-width solid $input-border-color;
+    border-radius: $input-border-radius-sm;
+    background-color: transparent;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.toggle-switch-slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: $custom-control-indicator-border-width;
+    bottom: 2px;
+    border-radius: $input-border-radius-sm;
+    background-color: $input-border-color;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.toggle-switch-slider.rounded-circle {
+    border-radius: 34px !important;
+}
+
+.toggle-switch-slider.rounded-circle:before {
+    border-radius: 50% !important;
+}
+
+
+
+
+// Custom file browser
+
+.custom-input-file {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    outline: none;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.custom-input-file+label {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+    padding: 0.625rem 1.25rem;
+    border: 1px solid $input-border-color;
+    border-radius: $input-border-radius;
+    color: $input-color;
+    background-color: $input-bg;
+    outline: none;
+}
+
+.custom-input-file+label:hover,
+.custom-input-file.has-focus+label,
+.custom-input-file:focus+label {
+    background-color: $input-focus-bg;
+}
+
+.no-js .custom-input-file+label {
+    display: none;
+}
+
+.custom-input-file.has-focus+label,
+.custom-input-file:focus+label {
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
+.custom-input-file+label i {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -0.25em;
+    margin-right: .5em;
+}
+
+
+/* Custom file input -- Style 2 */
+
+.custom-input-file--2+label {
+    color: color-yiq(theme-color("primary"));
+    border-color: theme-color("primary");
+    background: theme-color("primary");
+}
+
+.custom-input-file--2+label:hover,
+.custom-input-file--2.has-focus+label,
+.custom-input-file--2:focus+label {
+    color: color-yiq(theme-color("primary"));
+    border-color: darken(theme-color("primary"), 10%);
+    background: darken(theme-color("primary"), 10%);
+    ;
+}

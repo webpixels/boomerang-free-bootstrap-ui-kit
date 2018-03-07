@@ -1,0 +1,103 @@
+/* Textareas */
+
+textarea[resize="none"] {
+    resize: none!important;
+}
+
+textarea[resize="both"] {
+    resize: both!important;
+}
+
+textarea[resize="vertical"] {
+    resize: vertical!important;
+}
+
+textarea[resize="horizontal"] {
+    resize: horizontal!important;
+}
+
+/* Form control sizing */
+
+.form-control-xl {
+    padding: $input-padding-y-xl $input-padding-x-xl;
+    font-size: $font-size-xl;
+    line-height: $input-line-height-xl;
+    @include border-radius($input-border-radius-xl);
+}
+
+select.form-control-xl {
+    &:not([size]):not([multiple]) {
+        //height: $input-height-xl;
+    }
+}
+
+
+/* Floating labels */
+
+.has-floating-label {
+    position: relative;
+}
+
+.has-floating-label .control-label {
+    font-size: $font-size-base;
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    padding: 0 ($input-padding-x / 2);
+    margin: 0 ($input-padding-x / 2);
+    color: $input-placeholder-color;
+    transform: translateY(-50%) scale(1);
+    transform-origin: left top;
+    transition: 0.3s;
+    z-index: 1;
+}
+
+.has-floating-label .input-group .control-label {
+    left: 2rem;
+}
+
+.has-floating-label.focused .control-label {
+    padding: 0;
+    margin: 0;
+    top: -1.25rem;
+    left: 0;
+    transform: translateY(0) scale(0.85);
+}
+
+
+.has-floating-label .control-label-xl {
+    font-size: $font-size-xl;
+    padding: 0 ($input-padding-x-xl / 2);
+    margin: 0 ($input-padding-x-xl / 2);
+}
+
+.has-floating-label .control-label-lg {
+    font-size: $font-size-lg;
+    padding: 0 ($input-padding-x-lg / 2);
+    margin: 0 ($input-padding-x-lg / 2);
+}
+
+.has-floating-label .control-label-sm {
+    font-size: $font-size-sm;
+    padding: 0 ($input-padding-x-sm / 2);
+    margin: 0 ($input-padding-x-sm / 2);
+}
+
+// Alternative colors
+.form-primary {
+    .form-control {
+        color: color-yiq(theme-color("primary"));
+        background-color: darken(theme-color("primary"), 12%);
+        border: $input-border-width solid darken(theme-color("primary"), 12%);
+
+        &:focus {
+            background-color: darken(theme-color("primary"), 16%);
+            border: $input-border-width solid darken(theme-color("primary"), 16%);
+        }
+
+        // Placeholder
+        &::placeholder {
+            color: transparentize(color-yiq(theme-color("primary")), .2);
+        }
+    }
+}

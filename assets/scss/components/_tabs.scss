@@ -1,0 +1,248 @@
+.tab-body {
+    padding: 15px;
+}
+.tabbable-panel {
+    border: 1px solid $tab-panel-border-color;
+    padding: 10px;
+}
+.tabs.tabs--centered > .nav {
+    text-align: center;
+}
+.tabs.tabs--centered > .nav > li {
+    float: none;
+    display: inline-block;
+}
+
+// Tabs with image buttons
+.nav-tab-image-wrapper:hover {
+    cursor: pointer;
+}
+.nav-tab-image-wrapper .nav-tab-image {
+    display: block;
+    width: 96px;
+    height: 96px;
+    margin: auto;
+    border: 2px solid $border-color-base;
+}
+.nav-tab-image-wrapper:hover .nav-tab-image {
+    border-color: $color-base-1;
+}
+.nav-tab-image-wrapper .nav-tab-image img {
+    width: 100%;
+}
+.nav-tab-image-wrapper .nav-tab-image-title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    font-weight: 600;
+    color: $heading-color;
+    font-size: $font-size-h6;
+    font-family: $font-family-alt;
+}
+.nav-tab-image-wrapper:hover .nav-tab-image-title {
+    color: $color-base-1;
+}
+// Rounded pills navigation (timeline style)
+@media(max-width: 991px) {
+    .tabs .nav-pills.nav-pills--rounded > li {
+        display: block;
+        margin-bottom: 5px;
+    }
+}
+@media(min-width: 992px) {
+    .tabs .nav-pills.nav-pills--rounded {
+        padding: 0 50px;
+    }
+    .tabs .nav-pills.nav-pills--rounded > li > a,
+    .tabs .nav-pills.nav-pills--rounded > li > a.active {
+        min-width: 200px;
+        background: transparent;
+        border: 0;
+        padding: 0;
+        position: relative;
+    }
+
+    .tabs .nav-pills.nav-pills--rounded > li:last-child > a {
+        min-width: auto;
+    }
+    .tabs .nav-pills.nav-pills--rounded > li > a:before {
+        content: "";
+        position: relative;
+        display: block;
+        top: 40px;
+        height: 1px;
+        margin-left: 105px;
+        margin-right: 0;
+        background: lighten($nav-pill-bg, 3%);
+        z-index: 0;
+    }
+    .tabs .nav-pills.nav-pills--rounded > li:last-child > a:before {
+        background: transparent;
+    }
+    .tabs .nav-pills.nav-pills--rounded > li > a > .nav-pill {
+        position: relative;
+        display: block;
+        width: 100px;
+        height: 100px;
+    }
+    .tabs .nav-pills.nav-pills--rounded > li > a > .nav-pill > .nav-pill-circle {
+        position: relative;
+        display: block;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        margin: auto;
+        text-align: center;
+        border-radius: 100%;
+        background: $nav-pill-bg;
+        color: $nav-pill-color;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: $font-family-alt;
+        z-index: 10;
+    }
+    .tabs .nav-pills.nav-pills--rounded > li > a > .nav-pill > .nav-pill-circle > i {
+        display: block;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        font-size: 40px;
+    }
+
+    .tabs .nav-pills.nav-pills--rounded a:hover .nav-pill .nav-pill-circle {
+        background: darken($nav-pill-bg, 15%);
+    }
+
+    .tabs .nav-pills.nav-pills--rounded .active .nav-pill .nav-pill-circle,
+    .tabs .nav-pills.nav-pills--rounded a.active:hover .nav-pill .nav-pill-circle {
+        background: $color-base-1;
+        color: $color-base-text-1;
+    }
+
+    .tabs .nav-pills.nav-pills--rounded > li > a > .nav-pill > .nav-pill-text {
+        display: block;
+        margin: 10px 0 20px 0;
+        color: $color-gray-light;
+        font-size: 13px;
+    }
+}
+// Tabs - STYLE 1
+.tabs--style-1 .tab-content {
+    background-color: $tab-content-bg;
+    border: 1px solid $tab-content-border-color;
+}
+.tabs--style-1 .tab-pane {
+    border: 0;
+}
+.tabs--style-1 .nav-tabs {
+    border: 0;
+}
+.tabs--style-1 .nav-tabs > li {
+    margin-right: 5px;
+}
+.tabs--style-1 .nav-tabs > li > a {
+    border-radius: 0;
+    margin: 0;
+    text-align: center;
+    background-color: #FFF;
+    border-left: 0;
+    -webkit-transition: all 100ms linear;
+    transition: all 100ms linear;
+    padding: 18px 32px;
+    display: table;
+    width: 100%;
+    border: 1px solid #f1f1f1;
+    color: #000;
+    font-size: 13px;
+    font-family: $font-family-alt;
+    position: relative;
+}
+.tabs--style-1 .nav-tabs > li > a:hover {
+    background: $color-base-1;
+    color: $color-base-text-1;
+}
+.tabs--style-1 .nav-tabs > li > a.active {
+    border: 1px solid $color-base-1;
+    background: $color-base-1;
+    color: $color-base-text-1;
+}
+.tabs--style-1 .nav-tabs > li:first-child > a.active {
+    border-left: 1px solid $color-base-1;
+}
+
+.tabs--style-1 .nav-tabs > li.active > a,
+.tabs--style-1 .nav-tabs > li.active > a:focus,
+.tabs--style-1 .nav-tabs > li.active > a:hover {
+    background: $color-base-1;
+    color: $color-base-text-1;
+}
+.tabs--style-1 .tab-content {
+    margin-top: 5px;
+    border: 1px solid #f1f1f1;
+}
+
+// Tabs - STYLE 2
+.tabs--style-2 .nav-tabs {
+    border-bottom: 1px solid $nav-tabs-border-color;
+    padding: 0 20px;
+    margin: 0;
+}
+.tabs--style-2 .nav-tabs .nav-item {
+    margin-right: $spacer * 2;
+}
+.tabs--style-2 .nav-tabs .nav-item:last-child {
+    margin-right: 0;
+}
+.tabs--style-2 .nav-tabs .nav-link {
+    border: 0;
+    border-bottom: 1px solid transparent;
+    margin-right: 0;
+    color: $nav-tab-color;
+    padding: 1rem 0;
+    font-size: $font-size-sm;
+    font-family: $font-family-alt;
+}
+.tabs--style-2 > .nav-tabs > li > a > i {
+    color: #a6a6a6;
+}
+
+.tabs--style-2 > .nav-tabs .nav-link
+.tabs--style-2 > .nav-tabs .nav-link.active,
+.tabs--style-2 > .nav-tabs .nav-link:hover {
+    // border-bottom: 1px solid $color-base-1;
+    // background: none !important;
+    // color: $color-base-1;
+}
+
+
+.tabs--style-2 .nav-tabs .nav-item.show .nav-link,
+.tabs--style-2 .nav-tabs .nav-link.active,
+.tabs--style-2 .nav-tabs .nav-link:hover {
+    border-bottom: 1px solid $color-base-1;
+    background: transparent !important;
+    color: $color-base-1;
+}
+
+
+.tabs--style-2 > .nav-tabs > li.show > a > i,
+.tabs--style-2 > .nav-tabs > li:hover > a > i {
+    color: #a6a6a6;
+}
+.tabs--style-2 > .nav-tabs > li.open .dropdown-menu,
+.tabs--style-2 > .nav-tabs > li:hover .dropdown-menu {
+    margin-top: 0;
+}
+
+.tabs--style-2 > .nav-tabs > li.active > a > i {
+    color: $color-base-1;
+}
+.tabs--style-2 > .tab-content {
+    margin-top: 0;
+    border: 0;
+    border-top: 0;
+    padding: 15px 0;
+}
+.tabs--style-2.tabs--centered > .tab-content {
+    border-top: 0;
+    padding-top: 20px;
+}

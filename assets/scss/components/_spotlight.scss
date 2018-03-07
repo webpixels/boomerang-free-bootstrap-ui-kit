@@ -1,0 +1,12 @@
+.spotlight {
+	position: relative;
+	.container {
+		height: 100%;
+	}
+}
+
+@media (min-height: 600px) and (min-width: 767px) {
+	[data-spotlight="fullscreen"] {
+		height: 100vh;
+	}
+}

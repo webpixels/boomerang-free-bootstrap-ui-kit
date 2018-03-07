@@ -1,0 +1,48 @@
+// Add vertical space when columns reach a certain breakpoint
+.cols-space > div[class*='col-']:not(:last-child) {
+    margin-bottom: 4rem;
+}
+@media(max-width: 575px) {
+    .cols-xs-space > div[class*='col-']:not(:last-child) {
+        margin-bottom: 4rem;
+    }
+}
+@media(max-width: 767px) {
+    .cols-sm-space > div[class*='col-']:not(:last-child) {
+        margin-bottom: 4rem;
+    }
+}
+@media(max-width: 991px) {
+    .cols-md-space > div[class*='col-']:not(:last-child) {
+        margin-bottom: 4rem;
+    }
+}
+@media(max-width: 1199px) {
+    .cols-lg-space > div[class*='col-']:not(:last-child) {
+        margin-bottom: 4rem;
+    }
+}
+
+@media(max-width: 575px) {
+    .row-wrapper > .row .col-12:not(:last-child),
+    .row-wrapper > .row:not(:last-child) {
+        margin-bottom: $spacer * 3;
+    }
+}
+@media(min-width: 576px) and (max-width: 767px) {
+    .row-wrapper > .row .col-sm-12:not(:last-child),
+    .row-wrapper > .row:not(:last-child) {
+        margin-bottom: $spacer * 3;
+    }
+}
+@media(min-width: 768px) and (max-width: 991px) {
+    .row-wrapper .row .col-md-12:not(:last-child),
+    .row-wrapper .row:not(:last-child) {
+        margin-bottom: $spacer * 3;
+    }
+}
+@media(min-width: 992px) {
+    .row-wrapper > .row:not(:last-child) {
+        margin-bottom: $spacer * 3;
+    }
+}

@@ -1,0 +1,77 @@
+.list-group {
+    border-left: 0;
+    border-right: 0;
+}
+
+.list-group-item {
+    padding: 1rem 1rem;
+    border: 0;
+    border-bottom: 1px solid $border-color;
+    color: $gray-500;
+    font-size: $font-size-sm;
+    margin-bottom: 0;
+}
+
+.list-group-item-sm {
+    padding: 0.75rem 1rem;
+}
+.list-group-item:first-child {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-top: 1px solid $border-color;
+}
+
+.list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.list-group-item.active,
+.list-group-item.active:focus,
+.list-group-item.active:hover {
+    background-color: $gray-500;
+    color: $gray-800;
+    border-color: $gray-500;
+}
+
+.list-group-item .label {
+    margin-left: 1rem;
+}
+
+/* List groups included in cards */
+.card .list-group .list-group-item:first-child {
+    border-top: 0!important;
+}
+.card .list-group .list-group-item:last-child {
+    border-bottom: 0!important;
+}
+
+/* List group components */
+.list-group-img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    vertical-align: top;
+    margin: -.1rem 1.2rem 0 -.2rem;
+}
+.list-group-content {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    min-width: 0;
+}
+.list-group-content > p {
+    color: $gray-500;
+    line-height: 1.5;
+    margin: .2rem 0 0;
+}
+.list-group-heading {
+    font-size: $font-size-base;
+    color: $gray-800;
+}
+.list-group-heading > small {
+    float: right;
+    color: $gray-500;
+    font-weight: 500;
+}
+

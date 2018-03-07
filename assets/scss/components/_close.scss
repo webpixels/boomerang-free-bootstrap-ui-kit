@@ -1,0 +1,26 @@
+.close { 
+    @if $enable-transitions {
+        transition: $transition-base;
+    } 
+    &>span:not(.sr-only) {
+        background-color: $close-bg;
+        line-height: 17px;
+        height: 1.25rem;
+        width: 1.25rem; 
+        border-radius: 50%;
+        font-size: .8rem;
+        display: block;
+        @if $enable-transitions {
+            transition: $transition-base;
+        } 
+    } 
+
+    &:hover,
+    &:focus {
+        color: $white;
+
+        span:not(.sr-only) {
+            background-color: $close-hover-bg;
+        }
+    }
+}

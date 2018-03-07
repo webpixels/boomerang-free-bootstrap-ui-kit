@@ -1,0 +1,61 @@
+.bootstrap-tagsinput {
+    background-color: $input-bg;
+    border: $input-border-width solid $input-border-color;
+    display: inline-block;
+    padding: .3em .3em;
+    color: $input-border-color;
+    vertical-align: middle;
+    border-radius: $input-border-radius;
+    max-width: 100%;
+    cursor: text;
+}
+
+.bootstrap-tagsinput input {
+    border: none;
+    box-shadow: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0 6px;
+    margin: 0;
+    width: auto;
+    max-width: inherit;
+}
+
+.bootstrap-tagsinput.form-control input::-moz-placeholder {
+    color: $input-placeholder-color;
+    opacity: 1;
+}
+
+.bootstrap-tagsinput.form-control input:-ms-input-placeholder {
+    color: $input-placeholder-color;
+}
+
+.bootstrap-tagsinput.form-control input::-webkit-input-placeholder {
+    color: $input-placeholder-color;
+}
+
+.bootstrap-tagsinput input:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.bootstrap-tagsinput .badge {
+    padding: 1em .8em;
+    margin-right: 0.125rem;
+    border-radius: $input-border-radius;
+}
+
+.bootstrap-tagsinput [data-role="remove"] {
+    margin-left: 8px;
+    cursor: pointer;
+    color: rgba($white, 0.6);
+}
+
+.bootstrap-tagsinput [data-role="remove"]:after {
+    content: "x";
+    padding: 0px 2px;
+}
+
+.bootstrap-tagsinput [data-role="remove"]:hover {
+    color: rgba($white, 1);
+}

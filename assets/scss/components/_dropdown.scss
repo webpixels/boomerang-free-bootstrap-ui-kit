@@ -1,0 +1,80 @@
+.dropdown,
+.dropup,
+.dropright,
+.dropleft {
+    display: inline-block;
+}
+
+.dropdown-menu {
+    min-width: 12rem;
+}
+
+@media (min-width:992px) {
+    .dropdown-menu {
+
+        .dropdown-menu {
+           
+        }
+    }
+
+    .show>.dropdown-menu {
+
+    }
+}
+
+.dropdown-menu .dropdown-item {
+    padding: 0.5rem 1rem;
+    font-size: $font-size-sm;
+}
+
+.dropdown-menu .dropdown-item > i,
+.dropdown-menu .dropdown-item > svg {
+    margin-right: 1rem;
+    font-size: 1rem;
+    vertical-align: -17%;
+}
+
+.dropdown-header {
+    padding-left: 1rem;
+    padding-right: 1rem;
+} 
+
+
+// Inverse dropdown menu
+
+.dropdown-menu-inverse {
+    background: #282f37;
+    border-color: #242a31;
+}
+
+.dropdown-menu-inverse .dropdown-item {
+    color: #dadada;
+}
+
+.dropdown-menu-inverse .dropdown-item:active,
+.dropdown-menu-inverse .dropdown-item:focus,
+.dropdown-menu-inverse .dropdown-item:hover {
+    color: #fff;
+    background: #31353e;
+}
+
+.dropdown-menu-inverse .dropdown-divider {
+    background: #191e23;
+}
+
+// Dropown: Sizes
+
+.dropdown-menu.dropdown-menu-sm {
+    min-width: 100px;
+    border: $border-radius-sm;
+}
+
+.dropdown-menu.dropdown-menu-lg {
+    min-width: 260px;
+    border-radius: $border-radius;
+}
+
+.dropdown-menu.dropdown-menu-xl {
+    min-width: 320px;
+    border-radius: $border-radius;
+}

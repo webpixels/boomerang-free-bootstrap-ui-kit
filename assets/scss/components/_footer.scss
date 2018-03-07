@@ -1,0 +1,28 @@
+.footer {
+    background: $footer-bg;
+    color: $footer-color;
+
+    .nav .nav-item .nav-link,
+    .footer-link {
+        color: $footer-link-color !important;
+
+        &:hover {
+            color: $footer-link-hover-color !important;
+        }
+    }
+ 
+    .list-unstyled li a {
+        display: inline-block;
+        padding: .125rem 0;
+
+        &:hover {
+            color: theme-color("primary")!important;
+        }
+    }
+}
+
+.footer-dark {
+    .heading {
+        color: $white;
+    }
+}

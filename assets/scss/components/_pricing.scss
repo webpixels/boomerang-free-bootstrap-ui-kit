@@ -1,0 +1,498 @@
+/* Price Tags */
+.price-tag {
+	display: block;
+	padding: 0.75rem 0;
+}
+.price-tag--1 {
+	font-size: 3rem;
+}
+.price-tag--1 sup {
+	font-size: 1.25rem;
+	color: rgba(0, 0, 0, 0.4);
+	top: -1em;
+	right: -8px;
+}
+.price-tag--1 .price-type {
+	font-size: 0.875rem;
+	color: rgba(0, 0, 0, 0.4);
+	position: relative;
+	left: -10px;
+}
+.pricing-plans:after,
+.pricing-plans:before,
+.pricing-table:after,
+.pricing-table:before {
+	display: table;
+	content: " ";
+}
+.pricing-plans:before,
+.pricing-table:before {
+	clear: both;
+}
+
+.pricing-plans .plan-title {
+	margin: 0;
+	padding: 1rem 0;
+	font-size: $font-size-h5;
+	font-weight: 600;
+	color: $color-gray-dark;
+}
+.pricing-plans .price-tag {
+	margin: 0;
+	height: 90px;
+	line-height: 90px;
+	font-size: 50px;
+	font-weight: 700;
+	text-align: center;
+}
+.pricing-plans .price-tag span {
+	font-size: 28px;
+	font-weight: 600;
+}
+.pricing-plans .price-tag span.price-type {
+	font-size: 20px;
+	font-weight: 500;
+}
+.pricing-plans ul {
+	margin: 0;
+	padding: 0 15px;
+	list-style: none;
+}
+.pricing-plans ul li {
+	padding: 10px 0;
+	border-bottom: 1px solid $border-color-base;
+	font-size: $font-size-sm;
+}
+.pricing-plans ul li i {
+	margin-right: 8px;
+}
+.pricing-plans .plan-info {
+	margin: 0;
+	padding: 15px;
+	text-align: center;
+}
+.pricing-plans .plan-select {
+	padding: 15px;
+	border-top: 1px solid $border-color-base;
+}
+// Pricing plans: STYLE 1
+.pricing-plans--style-1 .block-pricing {
+	background: $card-bg;
+}
+.pricing-plans--style-1 .block-pricing.active {
+	background: $color-base-1;
+	color: $color-base-text-1;
+}
+.pricing-plans--style-1 .block-pricing.active * {
+	color: $color-base-text-1;
+}
+.pricing-plans--style-1 .block-pricing.active .btn {
+	color: $color-base-text-1 !important;
+	border-color: $color-base-text-1 !important;
+}
+.pricing-plans--style-1 .plan-title {
+	margin: 0;
+	font-size: 1rem;
+	font-weight: 500;
+	background: transparent;
+	color: $color-gray-dark;
+	text-transform: normal;
+}
+.pricing-plans--style-1 .price-tag {
+	margin: 0;
+	padding: 1rem ;
+	font-size: 4rem;
+	font-weight: 400;
+	height: auto;
+	line-height: 1;
+	text-align: center;
+	color: $color-gray-dark;
+}
+.pricing-plans--style-1 .price-tag span {
+	font-size: 28px;
+	font-weight: 600;
+	color: $color-gray-light;
+}
+.pricing-plans--style-1 .price-tag span.price-type {
+	font-size: 20px;
+	font-weight: 500;
+}
+.pricing-plans--style-1 .price-tag-subtitle {
+	font-size: 16px;
+	font-weight: 300;
+	text-transform: capitalize;
+	color: $color-gray-light;
+	display: block;
+	text-align: center;
+}
+.pricing-plans--style-1 ul li {
+	padding: 0.875rem 0;
+	color: $color-gray-light;
+}
+.pricing-plans--style-1 ul li.active {
+	color: $color-gray-dark;
+}
+// Pricing plans: STYLE 2
+.pricing-plans--style-2 .plan-title {
+	margin: 0;
+	padding: 2rem;
+	font-weight: 500;
+	//background: $color-base-1;
+	color: $color-gray-dark;
+	border-bottom: 1px solid $card-border-color;
+	text-transform: normal;
+}
+.pricing-plans--style-2 .block-pricing.active .plan-title {
+	background: $color-base-1;
+	color: $color-base-text-1;
+	border-bottom: 1px solid $color-base-1;
+}
+.pricing-plans--style-2 .block-pricing.active--style-2 .plan-title {
+	background: $color-base-4;
+	color: $color-base-text-4;
+	border-bottom: 1px solid $color-base-4;
+}
+
+.pricing-plans--style-2 .price-tag {
+	margin: 0.5rem 0 0 0;
+	padding: 1rem 0 0;
+	font-size: 3.75rem;
+	font-weight: 500;
+	height: auto;
+	line-height: 1;
+	text-align: center;
+	color: $color-gray-dark;
+}
+.pricing-plans--style-2 .price-tag span {
+	font-size: 28px;
+	font-weight: 600;
+}
+.pricing-plans--style-2 .price-tag span.price-type {
+	font-size: 20px;
+	font-weight: 500;
+}
+.pricing-plans--style-2 .price-tag-subtitle {
+	margin-top: 0.8rem;
+	font-size: 1rem;
+	font-weight: 300;
+	text-transform: capitalize;
+	color: $color-gray-light;
+	display: block;
+	text-align: center;
+}
+.pricing-plans--style-2 ul {
+	padding: 1rem 2rem;
+}
+.pricing-plans--style-2 ul li {
+	padding: 0.75rem 0;
+	border-bottom: 1px solid $card-border-color;
+	color: $color-gray-light;
+	font-size: $font-size-sm;
+}
+.pricing-plans--style-2 ul li:last-child {
+	border: 0;
+}
+.pricing-plans--style-2 ul li.active {
+	color: $color-gray-dark;
+	font-weight: 500;
+}
+
+// Style 3
+.pricing-plans--style-3 .block-pricing {
+	border: 1px solid $card-border-color;
+}
+.pricing-plans--style-3 .row-no-padding .block-pricing {
+	border-radius: 0;
+}
+.pricing-plans--style-3 .row-no-padding [class^="col-"]:not(:last-child) .block-pricing {
+	border-right: 0;
+}
+.pricing-plans--style-3 .block-pricing .plan-title-wrapper {
+	padding: $spacer;
+	text-align: center;
+	background: $color-gray-lightest;
+	border-bottom: 1px solid $card-border-color;
+}
+.pricing-plans--style-3 .block-pricing .plan-title-wrapper.active {
+	background: $color-base-1;
+	color: $color-base-text-1;
+}
+.pricing-plans--style-3 .block-pricing .plan-title-wrapper.active * {
+	color: $color-base-text-1!important;
+}
+.pricing-plans--style-3 .block-pricing .plan-title-wrapper .price-tag {
+	font-size: 4rem;
+	font-weight: 400;
+	color: $color-gray-dark;
+}
+
+.pricing-plans--style-1 .block-pricing .price-tag sup,
+.pricing-plans--style-2 .block-pricing .price-tag sup,
+.pricing-plans--style-3 .block-pricing .price-tag sup {
+	font-size: 1.5rem;
+	top: -1em;
+}
+
+.pricing-plans--style-3 .block-pricing .plan-title-wrapper .price-tag-subtitle {
+	display: inline-block;
+	margin-top: 0.5rem;
+	margin-bottom: 1rem;
+	font-size: $font-size-sm;
+	font-weight: 300;
+	text-transform: capitalize;
+}
+
+.pricing-plans--style-3 ul {
+	padding: 0;
+}
+
+.pricing-plans--style-3 ul > li {
+	padding: 15px 0;
+}
+
+// Other styles
+.pricing-plans .plan-select {
+	padding: 15px;
+	background: $card-footer-bg;
+	border-top: 1px solid $border-color-base;
+}
+.pricing-plans .block {
+	margin-top: $spacer * 2;
+	border: 1px solid $card-border-color;
+	background: $card-bg;
+	overflow: hidden;
+}
+
+@media(max-width: 767px) {
+	.pricing-plans {
+		margin-bottom: 30px;
+	}
+
+	// Style 3
+	.pricing-plans--style-3 [class^="col-"]:not(:last-child) .block-pricing {
+		border: 1px solid $card-border-color;
+	}
+}
+
+@media(min-width: 992px) {
+	.pricing-plans .block.popular {
+		margin-top: -$spacer;
+	}
+}
+
+// Promos
+.promos {
+	margin: 0 auto;
+}
+.promos:before,
+.promos:after {
+	content: '';
+	display: table;
+}
+.promos:after {
+	clear: both;
+}
+.promo {
+	margin: 15px 10px 25px;
+	padding: 5px 0 30px;
+	font-weight: 400;
+	line-height: 1.625;
+	text-align: center;
+}
+
+.promos.bg-base-1,
+.promos.bg-base-2,
+.promos.bg-base-3,
+.promos.bg-base-4,
+.promos.bg-base-5 {
+	background: transparent!important;
+}
+
+.promos.bg-base-1 .promo {
+	background: $color-base-1;
+}
+
+.promos.bg-base-2 .promo {
+	background: $color-base-2;
+}
+
+.promos.bg-base-3 .promo {
+	background: $color-base-3;
+}
+
+.promos.bg-base-4 .promo {
+	background: $color-base-4;
+}
+
+.promos.bg-base-5 .promo {
+	background: $color-base-5;
+}
+
+.promo h4 {
+	margin: 15px 0 0;
+	font-size: 150%;
+	font-weight: normal;
+}
+
+.promos.bg-base-1 .promo h4 {
+	color: $color-base-text-1;
+}
+
+.promos.bg-base-2 .promo h4 {
+	color: $color-base-text-2;
+}
+
+.promos.bg-base-3 .promo h4 {
+	color: $color-base-text-3;
+}
+
+.promos.bg-base-4 .promo h4 {
+	color: $color-base-text-4;
+}
+
+.promos.bg-base-5 .promo h4 {
+	color: $color-base-text-5;
+}
+
+.promo li {
+	padding: 5px 0;
+	font-size: $font-size-sm;
+}
+
+.promos.bg-base-1 .brief {
+	color: $color-base-text-1;
+}
+
+.promos.bg-base-2 .brief {
+	color: $color-base-text-2;
+}
+
+.promos.bg-base-3 .brief {
+	color: $color-base-text-3;
+}
+
+.promos.bg-base-4 .brief {
+	color: $color-base-text-4;
+}
+
+.promos.bg-base-5 .brief {
+	color: $color-base-text-5;
+}
+
+.promo .price {
+	margin: 10px 0;
+	padding: 5px 0;
+	font-size: 250%;
+}
+
+.promo .features {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.promo .buy {
+	margin: 15px 0 0;
+}
+
+.promos.bg-base-1 .promo .features {
+	color: $color-base-text-1;
+}
+
+.promos.bg-base-2 .promo .features {
+	color: $color-base-text-2;
+}
+
+.promos.bg-base-3 .promo .features {
+	color: $color-base-text-3;
+}
+
+.promos.bg-base-4 .promo .features {
+	color: $color-base-text-4;
+}
+
+.promos.bg-base-5 .promo .features {
+	color: $color-base-text-5;
+}
+
+.promos.bg-base-1 .promo .price {
+	background: darken($color-base-1, 10%);
+	color: $color-base-text-1;
+}
+
+.promos.bg-base-2 .promo .price {
+	background: darken($color-base-2, 10%);
+	color: $color-base-text-2;
+}
+
+.promos.bg-base-3 .promo .price {
+	background: darken($color-base-3, 10%);
+	color: $color-base-text-3;
+}
+
+.promos.bg-base-4 .promo .price {
+	background: darken($color-base-4, 10%);
+	color: $color-base-text-4;
+}
+
+.promos.bg-base-5 .promo .price {
+	background: darken($color-base-5, 10%);
+	color: $color-base-text-5;
+}
+@media(min-width: 768px) {
+	.promo {
+		display: inline;
+		float: left;
+		width: 33.333%;
+		margin: 15px 0 0;
+		transition: transform 0.25s ease-out;
+	}
+
+	.promo.first {
+		border-right: none;
+	}
+
+	.promo.second {
+		float: right;
+		border-left: none;
+	}
+
+	.promo.first:hover,
+	.promo.second:hover {
+		transform: translateY(-25px);
+	}
+
+	.scale {
+		transform: scale(1.2);
+	}
+
+	.promos.bg-base-1 .scale {
+		box-shadow: 0 0 4px 1px darken($color-base-1, 10%);
+	}
+
+	.promos.bg-base-2 .scale {
+		box-shadow: 0 0 4px 1px darken($color-base-2, 10%);
+	}
+
+	.promos.bg-base-3 .scale {
+		box-shadow: 0 0 4px 1px darken($color-base-3, 10%);
+	}
+
+	.promos.bg-base-4 .scale {
+		box-shadow: 0 0 4px 1px darken($color-base-4, 10%);
+	}
+
+	.promos.bg-base-5 .scale {
+		box-shadow: 0 0 4px 1px darken($color-base-5, 10%);
+	}
+}
+@media(max-width: 767px) {
+	.promo {
+		margin-bottom: 2rem;
+		border-radius: $card-border-radius;
+	}
+
+	.promo:last-child {
+		margin-bottom: 0;
+	}
+}

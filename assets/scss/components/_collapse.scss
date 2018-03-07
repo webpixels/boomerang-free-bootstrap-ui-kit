@@ -1,0 +1,172 @@
+/* COLLAPSE STACKED */
+.accordion-cards--stacked .card {
+    border-radius: 0;
+}
+
+.accordion-cards--stacked .card:first-child {
+    border-top-left-radius: $border-radius;
+    border-top-right-radius: $border-radius;
+}
+
+.accordion-cards--stacked .card:last-child {
+    border-bottom-left-radius: $border-radius;
+    border-bottom-right-radius: $border-radius;
+}
+
+.accordion-cards--stacked .card + .card {
+    margin-top: 0;
+    border-top: 0;
+}
+
+/* COLLAPSE SPACED */
+.accordion-cards--spaced .card {
+    border-radius: $border-radius;
+}
+
+.accordion-cards--spaced .card + .card {
+    margin-top: $spacer;
+    //border-top: 1px solid $collapse-border-color;
+}
+
+/* STYLE 2 & STYLE 3 */
+.accordion--style-1 .card,
+.accordion--style-2 .card {
+    border: 0;
+    background: transparent;
+}
+
+.accordion--style-1 .card-block,
+.accordion--style-2 .card-block {
+    border: 0;
+}
+
+.accordion--style-1 .card-header,
+.accordion--style-2 .card-header {
+    color: #333;
+    border: none;
+    padding: 0 !important;
+}
+
+.accordion--style-1 .card-title,
+.accordion--style-2 .card-title {
+    margin: 0;
+    padding: 0;
+    font-size: $font-size-sm;
+    color: inherit;
+    background: #fff;
+    border: 0;
+}
+
+.accordion--style-2 .card-title {
+    background: #000;
+}
+
+.accordion--style-1 .card-title a,
+.accordion--style-2 .card-title a {
+    padding: 18px 35px 18px 22px;
+    display: table;
+    width: 100%;
+    border: 1px solid $collapse-border-color;
+    color: $card-heading-color;
+    font-size: $font-size-h5;
+    font-weight: 500;
+    position: relative;
+}
+
+.accordion--style-2 .card-title a {
+    border: none;
+    color: #fff;
+}
+
+.accordion--style-1 .card-title a span,
+.accordion--style-2 .card-title a span {
+    position: absolute;
+    top: 22px;
+    right: 17px;
+    color: #ccc;
+}
+
+/* STYLE 3 and 4 */
+.accordion--style-3 .card-header,
+.accordion--style-4 .card-header {
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+}
+
+.accordion--style-4 .card-header {
+    border: 1px solid $card-border-color;
+    padding: 0 20px 0 0;
+}
+
+.accordion--style-3 .card,
+.accordion--style-4 .card {
+    margin-bottom: 1px;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+.accordion--style-3 .card:first-child {
+    border-top: 1px solid $card-border-color;
+}
+
+.accordion--style-3 .card {
+    border-bottom: 1px solid $card-border-color;
+}
+
+.accordion--style-3 .card-title,
+.accordion--style-4 .card-title {
+    overflow: hidden;
+    padding: 0;
+    border: 0;
+}
+
+.accordion--style-3 .card-title a,
+.accordion--style-4 .card-title a {
+    padding: $spacer 0;
+    font-weight: 400;
+    font-size: $font-size-h6;
+    color: $card-heading-color;
+    display: table;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.accordion--style-4 .card-title a {
+    padding-left: 70px;
+}
+
+.accordion--style-4 .card-title a > .collapse-heading-icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 54px;
+    height: 100%;
+    text-align: center;
+    line-height: 54px;
+    border-right: 1px solid $collapse-border-color;
+}
+
+.accordion--style-4 .card-title a > .collapse-heading-icon > i {
+    font-size: 28px;
+    line-height: 54px;
+    color: $color-gray-light;
+}
+
+.accordion--style-3 .card,
+.accordion--style-4 .card {
+    border: none;
+}
+
+.accordion--style-3 .card-header > .card-title,
+.accordion--style-3 .show .card-body {
+    border-bottom: 1px solid $collapse-border-color;
+}
+
+.accordion--style-3 .card-header > .card-title > a[aria-expanded="true"],
+.accordion--style-4 .card-header > .card-title > a[aria-expanded="true"] {
+    color: $color-base-1 !important;
+    text-decoration: none;
+}
