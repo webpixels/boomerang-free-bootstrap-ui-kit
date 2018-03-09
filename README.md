@@ -47,7 +47,7 @@ We provide compiled CSS and JS (`theme.*`), as well as compiled and minified CSS
 **Alexis Enache**
 
 + <http://webpixels.io>
-+ <http://instagram.com/webpixels.io>
++ <http://instagram.com/webpixelsofficial>
 + <http://dribbble.com/webpixels>
 
 ## Typeface
