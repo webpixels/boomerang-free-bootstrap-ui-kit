@@ -43,7 +43,7 @@ Boomerang is made using the Nunito typeface, which can be downloaded for free he
 
 ## Links
 
-More products from Webpixels: <https://webpixels.io?utm_source=github&utm_medium=readme&utm_campaign=themes&utm_content=boomerang-free-bootstrap-ui-kit>
+More products from Webpixels: [https://webpixels.io](https://webpixels.io?utm_source=github&utm_medium=readme&utm_campaign=themes&utm_content=boomerang-free-bootstrap-ui-kit)
 
 ### Social Media:
 
