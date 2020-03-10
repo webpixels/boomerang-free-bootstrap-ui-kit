@@ -1,4 +1,4 @@
-# [Boomerang - Free Bootstrap UI Kit](https://preview.webpixels.io/boomerang-free-bootstrap-ui-kit/?utm_source=github&utm_medium=readme&utm_campaign=themes&utm_content=boomerang-free-bootstrap-theme)
+# [Boomerang - Free Bootstrap UI Kit](https://preview.webpixels.io/boomerang-free-bootstrap-ui-kit/?utm_source=github&utm_medium=readme&utm_campaign=themes&utm_content=boomerang-free-bootstrap-ui-kit)
 
 ![Boomerang - Free Bootstrap UI Kit Cover](https://webpixels.s3.eu-central-1.amazonaws.com/public/github/boomerang-free-bootstrap-ui-kit.jpg "Boomerang - Free Bootstrap UI Kit")
 
@@ -6,7 +6,7 @@ Boomerang is an innovative HTML template solution, based on Bootstrap 4, which c
 
 This is a free light version version that can be downloaded and used as needed (even in commercial projects).
 
-[See Demo](https://preview.webpixels.io/boomerang-free-bootstrap-ui-kit?utm_source=github&utm_medium=readme&utm_campaign=themes&utm_content=boomerang-free-bootstrap-theme)
+[See Demo](https://preview.webpixels.io/boomerang-free-bootstrap-ui-kit?utm_source=github&utm_medium=readme&utm_campaign=themes&utm_content=boomerang-free-bootstrap-ui-kit)
 
 ## Download
 
@@ -17,8 +17,8 @@ Two quick-start options are available:
 
 ## Interested in the PRO version?
 
-- [Open Product Page](https://webpixels.io/themes/boomerang-multipurpose-bootstrap-theme?utm_source=github&utm_medium=readme&utm_campaign=themes&utm_content=boomerang-free-bootstrap-theme)
-- [Live Preview](https://preview.webpixels.io/boomerang-multipurpose-bootstrap-theme?utm_source=github&utm_medium=readme&utm_campaign=themes&utm_content=boomerang-free-bootstrap-theme)
+- [Open Product Page](https://webpixels.io/themes/boomerang-multipurpose-bootstrap-theme?utm_source=github&utm_medium=readme&utm_campaign=themes&utm_content=boomerang-free-bootstrap-ui-kit)
+- [Live Preview](https://preview.webpixels.io/boomerang-multipurpose-bootstrap-theme?utm_source=github&utm_medium=readme&utm_campaign=themes&utm_content=boomerang-free-bootstrap-ui-kit)
 
 ## Install
 
@@ -43,7 +43,7 @@ Boomerang is made using the Nunito typeface, which can be downloaded for free he
 
 ## Links
 
-More products from Webpixels: <https://webpixels.io?utm_source=github&utm_medium=readme&utm_campaign=themes&utm_content=boomerang-free-bootstrap-theme>
+More products from Webpixels: <https://webpixels.io?utm_source=github&utm_medium=readme&utm_campaign=themes&utm_content=boomerang-free-bootstrap-ui-kit>
 
 ### Social Media:
 
