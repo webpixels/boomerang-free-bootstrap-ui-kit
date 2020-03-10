@@ -1,67 +1,74 @@
-# [Boomerang UI Kit](https://webpixels.github.io/boomerang-ui-kit/)
+# [Boomerang - Free Bootstrap UI Kit](https://preview.webpixels.io/boomerang-free-bootstrap-ui-kit/?utm_source=github&utm_medium=readme&utm_campaign=themes&utm_content=boomerang-free-bootstrap-theme)
 
-![alt text](https://preview.webpixels.io/public/boomerang/boomerang-ui-kit-free-cover-1000x750.png "Boomerang UI Kit FREE")
+![Boomerang - Free Bootstrap UI Kit Cover](https://webpixels.s3.eu-central-1.amazonaws.com/public/github/boomerang-free-bootstrap-ui-kit.jpg "Boomerang - Free Bootstrap UI Kit")
 
-## Links:
+Boomerang is an innovative HTML template solution, based on Bootstrap 4, which combines beautiful design and flawless functionality.
 
-+ [Demo Page](https://webpixels.github.io/boomerang-ui-kit/)
+This is a free light version version that can be downloaded and used as needed (even in commercial projects).
 
+[See Demo](https://preview.webpixels.io/boomerang-free-bootstrap-ui-kit?utm_source=github&utm_medium=readme&utm_campaign=themes&utm_content=boomerang-free-bootstrap-theme)
 
-## Quick start
+## Download
 
-Two quick start options are available:
+Two quick-start options are available:
 
-- [Download the latest release](https://github.com/webpixels/boomerang-ui-kit/archive/master.zip).
-- Clone the repo: `git clone https://github.com/webpixels/boomerang-ui-kit.git`.
+- [Download the latest release](https://github.com/webpixels/boomerang-free-bootstrap-ui-kit/archive/master.zip).
+- Clone the repo: `git clone https://github.com/webpixels/boomerang-free-bootstrap-ui-kit.git`.
 
-### What's included
+## Interested in the PRO version?
 
-Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
+- [Open Product Page](https://webpixels.io/themes/boomerang-multipurpose-bootstrap-theme?utm_source=github&utm_medium=readme&utm_campaign=themes&utm_content=boomerang-free-bootstrap-theme)
+- [Live Preview](https://preview.webpixels.io/boomerang-multipurpose-bootstrap-theme?utm_source=github&utm_medium=readme&utm_campaign=themes&utm_content=boomerang-free-bootstrap-theme)
 
-```
-boomerang-ui-kit/
-├── assets/
-|   ├── css/
-│   |   ├── theme.css
-│   |   └── theme.min.css
-|   ├── js/
-│   |   ├── theme.js
-│   |   └── theme.min.js
-|   ├── scss/
-│   |   ├── components
-│   |   └── mixins
-|   |   ├── utilities
-|   |   ├── theme.scss
-|   ├── vendor/
-|   ├── images/
-|   |   ├── bootstrap
-|   |   ├── fonts
-|   index.html
+## Install
 
-```
+Automate painful or time-consuming tasks in your development workflow, so you can stop messing around and build something using Gulp
 
-We provide compiled CSS and JS (`theme.*`), as well as compiled and minified CSS and JS (`theme.min.*`). The free version of FontAwesome 5 is included in the package.
+- npm install gulp-cli -g
+- npm install
+- gulp
+
+### Additional Gulp tasks
+
+- gulp sync:libs (update the src/assets/libs folder in case new dependencies have been installed)
+- gulp copy:libs (copy all the dependencies compiled assets in the dist folder)
+
+## Documentation
+
+No matter you are a developer or new to web design, you will find our theme very easy to customize with an intuitive HTML markup. In the theme's pack you will find a docs folder with all the information you need to get started.
+
+## Typeface
+
+Boomerang is made using the Nunito typeface, which can be downloaded for free here: https://fonts.google.com/
+
+## Links
+
+More products from Webpixels: <https://webpixels.io?utm_source=github&utm_medium=readme&utm_campaign=themes&utm_content=boomerang-free-bootstrap-theme>
+
+### Social Media:
+
+- Github: <https://github.com/webpixels>
+- Dribbble: <http://dribbble.com/webpixels>
+- Instagram: <http://www.instagram.com/webpxs>
+- Twitter: <http://www.twitter.com/webpxs>
+- Facebook: <http://www.facebook.com/webpixels>
 
 ## Authors
 
 **Alexis Enache**
 
-+ <http://webpixels.io>
-+ <http://instagram.com/webpixelsofficial>
-+ <http://dribbble.com/webpixels>
++ <http://dribbble.com/extrabright>
++ <http://instagram.com/extragright>
++ <http://twitter.com/3xtrabright>
 
-## Typeface
+## Support
 
-Boomerang UI Kit is made using the Nunito typeface, which can be downloaded for free here: https://fonts.google.com/specimen/Nunito
+We create long lasting relationships with our customers and we want to offer you the best help in order to get started with any of our products.
 
-## Links
+For all our free resources we offer community support. Please visit our Github repository and post your issue, suggestion, or contribution.
 
-More products from Webpixels: <https://webpixels.io/themes/>
+[Get Support](https://github.com/webpixels/boomerang-free-bootstrap-ui-kit/issues)
 
-Social Media:
+## 50k+ happy customers
 
-Facebook: <http://www.facebook.com/webpixels>
-
-Instagram: <http://www.instagram.com/webpixels.io>
-
-Dribbble: <http://dribbble.com/webpixels>
+Over the past 6 years, we’ve sold over 100k themes and learned the best way to build, maintain, and support our themes. Our mission is to bring the best development experience to designers and developers by offering the tools needed for having a quick and solid start in most web projects.
